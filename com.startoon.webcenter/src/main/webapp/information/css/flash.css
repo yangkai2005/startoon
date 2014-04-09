@@ -1,0 +1,44 @@
+﻿/*
+Powered By www.toprand.com
+*/
+
+/*survey*/
+#ifocus { width:542px; height:222px; float:left;}
+	#ifocus_pic { display:inline; position:relative;float:left;width:440px; height:222px; overflow:hidden;}
+		#ifocus_piclist { position:absolute; }
+		#ifocus_piclist li { width:440px; height:222px; overflow:hidden; display:none}
+		#ifocus_piclist img { width:440px; height:222px;}
+	#ifocus_btn { display:inline; float:right; width:99px;}
+		#ifocus_btn li { width:99px; height:57px; cursor:pointer; opacity:0.5; -moz-opacity:0.5; filter:alpha(opacity=50); }
+		#ifocus_btn img { width:78px; height:44px; margin:5px 0 0 12px; border:1px solid #a4a09f;  }
+		#ifocus_btn .current { background: url(../images/fstab.jpg) no-repeat; opacity:1; -moz-opacity:1; filter:alpha(opacity=100); }
+         #ifocus_btn .current img{border:0;}
+		 
+		 
+.vote-result {	 padding:0 5px; padding-top:10px;}
+.olist {MARGIN: 0px auto; WIDTH: 540px; ZOOM: 1; OVERFLOW: hidden; list-style:none}
+.olist LI.item {	LINE-HEIGHT: 20px; ZOOM: 1;  CLEAR: both; OVERFLOW: hidden; padding-bottom:6px;}
+.olist LI.item {	POSITION: relative}
+.olist LI DIV.d {	FLOAT: left}
+.d-tit {WIDTH: 120px}
+.d-prc {WIDTH: 225px}
+.d-prc2 {WIDTH: 70px}
+
+.d-from {WIDTH: 32px}
+
+#S_Cont_11 .d-flash {WIDTH: 460px}
+.olist LI.item .d { PADDING-LEFT: 0px; PADDING-RIGHT: 0px;}
+.olist LI.item .d-tit {	}
+.olist LI.item .d-prc {TEXT-ALIGN: right; PADDING-LEFT: 5px; WIDTH: 215px; PADDING-RIGHT: 5px}
+.olist LI.item .d-prc2 {TEXT-ALIGN: right; WIDTH: 60px; PADDING-RIGHT: 10px}
+.olist LI.item .d-num {TEXT-ALIGN: right; WIDTH: 74px; PADDING-RIGHT: 10px; FONT-FAMILY: arial; COLOR: #666; FONT-SIZE: 14px}
+.olist LI.item .d-from {PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; HEIGHT: 15px; PADDING-TOP: 0px}
+
+.olist LI.item .d-from A:hover {BACKGROUND-POSITION: -100px 0px}
+.olist LI.item .selected.d-from A {BACKGROUND-POSITION:-100px 0px}
+.olist LI.last {BACKGROUND: none transparent scroll repeat 0% 0%}
+.olist LI.selected.item {Z-INDEX: 100; POSITION: relative;}
+.olist LI.item .d {PADDING-LEFT: 0px; PADDING-RIGHT: 0px;}
+.bars{PADDING-BOTTOM: 0px; MARGIN: 3px 0px 0px; PADDING-LEFT: 1px; WIDTH: 152px; PADDING-RIGHT: 0px; BACKGROUND:url(../survey/images/vote_cl_bar.png) no-repeat; FLOAT: left; HEIGHT: 16px; PADDING-TOP: 0px}
+.bars .precent {FLOAT: left; OVERFLOW: hidden}
+.bars .precent IMG {DISPLAY: block}		 

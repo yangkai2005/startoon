@@ -1,0 +1,444 @@
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #333333; PADDING-TOP: 0px; FONT-FAMILY: Arial; BACKGROUND-COLOR: #ffffff
+}
+DIV {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+A:link {
+	COLOR: #003399; TEXT-DECORATION: underline
+}
+A:visited {
+	COLOR: #003399; TEXT-DECORATION: underline
+}
+A:hover {
+	COLOR: #ff0000; TEXT-DECORATION: underline
+}
+A:active {
+	COLOR: #ff0000; TEXT-DECORATION: underline
+}
+A.lk1:link {
+	COLOR: #003399; TEXT-DECORATION: none
+}
+A.lk1:visited {
+	COLOR: #003399; TEXT-DECORATION: none
+}
+A.lk1:hover {
+	COLOR: #ff0000; TEXT-DECORATION: underline
+}
+A.lk1:active {
+	COLOR: #ff0000; TEXT-DECORATION: underline
+}
+A.lk2:link {
+	COLOR: #ff8000; TEXT-DECORATION: none
+}
+A.lk2:visited {
+	COLOR: #ff8000; TEXT-DECORATION: none
+}
+A.lk2:hover {
+	COLOR: #ff0000; TEXT-DECORATION: underline
+}
+A.lk2:active {
+	COLOR: #ff0000; TEXT-DECORATION: underline
+}
+A.lk3:link {
+	COLOR: #333; TEXT-DECORATION: none
+}
+A.lk3:visited {
+	COLOR: #333; TEXT-DECORATION: none
+}
+A.lk3:hover {
+	COLOR: #ff0000; TEXT-DECORATION: underline
+}
+A.lk3:active {
+	COLOR: #ff0000; TEXT-DECORATION: underline
+}
+.warpper {
+	CLEAR: both; BORDER-RIGHT: #2b6799 0px solid; BORDER-TOP: #2b6799 0px solid; MARGIN: 0px auto; OVERFLOW: auto; BORDER-LEFT: #2b6799 0px solid; WIDTH: 722px; BORDER-BOTTOM: #2b6799 0px solid; HEIGHT: 100%
+}
+.lin0 {
+	CLEAR: both; HEIGHT: 30px; BACKGROUND-COLOR: #77a3ca
+}
+.lin0left {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; FLOAT: left; MARGIN-LEFT: 15px; COLOR: #ffffff; LINE-HEIGHT: 30px
+}
+.lin0right {
+	FLOAT: right; COLOR: #ffffff; LINE-HEIGHT: 30px; MARGIN-RIGHT: 15px
+}
+.big {
+	CLEAR: both; WIDTH: 720px; HEIGHT: auto
+}
+.en1 {
+	CLEAR: both; WIDTH: 722px; HEIGHT: 27px
+}
+.cgbg1 {
+	BORDER-RIGHT: #d4dee0 1px solid; BACKGROUND: url(http://jic.b2b.makepolo.com/img/purchase/cg3.jpg) repeat-x; FLOAT: left; WIDTH: 16px; BORDER-BOTTOM: #d4dee0 1px solid; HEIGHT: 26px
+}
+.cgfst {
+	PADDING-RIGHT: 25px; PADDING-LEFT: 15px; FONT-WEIGHT: bold; FONT-SIZE: 14px; FLOAT: left; PADDING-BOTTOM: 0px; WIDTH: 141px; LINE-HEIGHT: 26px; PADDING-TOP: 0px
+}
+.cgbg2 {
+	PADDING-LEFT: 30px; FONT-SIZE: 14px; BACKGROUND: url(http://jic.b2b.makepolo.com/img/purchase/cg3.jpg) repeat-x; FLOAT: left; BORDER-LEFT: #d4dee0 1px solid; WIDTH: 492px; LINE-HEIGHT: 26px; BORDER-BOTTOM: #d4dee0 1px solid; HEIGHT: 26px
+}
+.en2 {
+	CLEAR: both; MARGIN-TOP: 20px; WIDTH: 722px; HEIGHT: auto
+}
+.pitem {
+	CLEAR: both; MARGIN-BOTTOM: 5px; WIDTH: 722px; HEIGHT: 28px
+}
+.nametxt1 {
+	FONT-SIZE: 12px; FLOAT: left; WIDTH: 190px; TEXT-ALIGN: right
+}
+.red {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 0px; COLOR: #ff0000; LINE-HEIGHT: 28px; PADDING-TOP: 0px
+}
+.inprea1 {
+	FLOAT: left; WIDTH: 277px; HEIGHT: 28px
+}
+.houinprea1 {
+	FLOAT: left; WIDTH: 420px; HEIGHT: 28px
+}
+.inptex1 {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; WIDTH: 270px; PADDING-TOP: 2px; HEIGHT: 16px
+}
+.pitem1 {
+	CLEAR: both; MARGIN-BOTTOM: 3px; HEIGHT: auto
+}
+.nametxt2 {
+	FLOAT: left; WIDTH: 183px
+}
+.bp1 {
+	FLOAT: left; WIDTH: 594px; HEIGHT: 100%
+}
+.bgimg1 {
+	BORDER-RIGHT: #e2e6ef 1px solid; BORDER-TOP: #e2e6ef 1px solid; FLOAT: left; BORDER-LEFT: #e2e6ef 1px solid; WIDTH: 100px; BORDER-BOTTOM: #e2e6ef 1px solid; HEIGHT: 100px
+}
+.bginp {
+	FLOAT: left; HEIGHT: 100%
+}
+.bginp1 {
+	FLOAT: left; LINE-HEIGHT: 28px
+}
+.wa {
+	CLEAR: both; HEIGHT: 100%
+}
+.nametxt3 {
+	FLOAT: left; WIDTH: 85px; TEXT-ALIGN: right
+}
+.inprea2 {
+	FLOAT: left; WIDTH: 84px; HEIGHT: 28px
+}
+.inptex2 {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; WIDTH: 82px; PADDING-TOP: 2px; HEIGHT: 16px
+}
+.yuan {
+	FLOAT: left; MARGIN-LEFT: 10px
+}
+.duo1 {
+	MARGIN-TOP: 2px; PADDING-LEFT: 10px; FLOAT: left; MARGIN-LEFT: 100px; WIDTH: 130px
+}
+.su {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BACKGROUND: url(http://jic.b2b.makepolo.com/img/purchase/cg4.jpg) no-repeat; BORDER-BOTTOM-WIDTH: 0px; WIDTH: 41px; CURSOR: pointer; HEIGHT: 19px; BORDER-RIGHT-WIDTH: 0px
+}
+.pitem2 {
+	CLEAR: both; MARGIN-BOTTOM: 5px; HEIGHT: 100%
+}
+.nametxt4 {
+	MARGIN-TOP: 8px; FLOAT: left; WIDTH: 175px; TEXT-ALIGN: right
+}
+.bp2 {
+	PADDING-LEFT: 11px; FLOAT: left; WIDTH: 590px; HEIGHT: 100%
+}
+.bp3 {
+	BORDER-RIGHT: #ffcb9b 1px solid; BORDER-TOP: #ffcb9b 1px solid; PADDING-LEFT: 5px; FLOAT: left; BORDER-LEFT: #ffcb9b 1px solid; WIDTH: 445px; LINE-HEIGHT: 25px; BORDER-BOTTOM: #ffcb9b 1px solid; HEIGHT: 25px; BACKGROUND-COLOR: #fff8ee
+}
+.bg4 {
+	MARGIN-TOP: 8px; PADDING-LEFT: 10px; FLOAT: left; WIDTH: 520px
+}
+.selectnr1 {
+	WIDTH: 104px
+}
+.selectnr2 {
+	WIDTH: 90px
+}
+.selectnr3 {
+	WIDTH: 90px; TEXT-ALIGN: center
+}
+.bg5 {
+	PADDING-LEFT: 11px; FLOAT: left; WIDTH: 509px; HEIGHT: 110px
+}
+.text1 {
+	FONT-SIZE: 12px; WIDTH: 407px; COLOR: #989898; HEIGHT: 98px
+}
+.houtext1 {
+	BORDER-RIGHT: #7f9db9 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #7f9db9 1px solid; PADDING-LEFT: 3px; FONT-SIZE: 12px; PADDING-BOTTOM: 3px; BORDER-LEFT: #7f9db9 1px solid; WIDTH: 407px; PADDING-TOP: 3px; BORDER-BOTTOM: #7f9db9 1px solid; HEIGHT: 98px
+}
+.xian {
+	PADDING-RIGHT: 30px; FLOAT: right; PADDING-TOP: 90px
+}
+.text2 {
+	WIDTH: 80px; COLOR: #989898; HEIGHT: 17px; TEXT-ALIGN: center
+}
+.inprea3 {
+	FLOAT: left; WIDTH: 160px; HEIGHT: 28px
+}
+.inptex3 {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; WIDTH: 160px; PADDING-TOP: 2px; HEIGHT: 16px
+}
+.inprea4 {
+	CLEAR: both; MARGIN-LEFT: -4px
+}
+.yanz {
+	FLOAT: left; MARGIN-LEFT: 10px; WIDTH: 165px; HEIGHT: 26px
+}
+.suu {
+	BORDER-TOP-WIDTH: 0px; FONT-WEIGHT: bold; BORDER-LEFT-WIDTH: 0px; BACKGROUND: url(http://jic.b2b.makepolo.com/img/purchase/cg6.jpg) no-repeat; BORDER-BOTTOM-WIDTH: 0px; WIDTH: 89px; CURSOR: pointer; COLOR: #ffffff; HEIGHT: 31px; BORDER-RIGHT-WIDTH: 0px
+}
+.cgbg1_1 {
+	BORDER-RIGHT: #d4dee0 1px solid; PADDING-LEFT: 10px; FONT-SIZE: 14px; BACKGROUND: url(http://jic.b2b.makepolo.com/img/purchase/cg3.jpg) repeat-x; FLOAT: left; WIDTH: 150px; LINE-HEIGHT: 26px; BORDER-BOTTOM: #d4dee0 1px solid; HEIGHT: 26px
+}
+.cgbg2_1 {
+	PADDING-LEFT: 30px; FONT-SIZE: 14px; BACKGROUND: url(http://jic.b2b.makepolo.com/img/purchase/cg3.jpg) repeat-x; FLOAT: left; BORDER-LEFT: #d4dee0 1px solid; WIDTH: 348px; LINE-HEIGHT: 26px; BORDER-BOTTOM: #d4dee0 1px solid; HEIGHT: 26px
+}
+.en3 {
+	CLEAR: both; PADDING-RIGHT: 8px; PADDING-LEFT: 8px; FONT-WEIGHT: bold; FONT-SIZE: 14px; PADDING-BOTTOM: 8px; LINE-HEIGHT: 145%; PADDING-TOP: 8px
+}
+.en3_1 {
+	COLOR: #fe0000
+}
+.en4 {
+	CLEAR: both; HEIGHT: 100%
+}
+.en4top {
+	CLEAR: both; PADDING-RIGHT: 10px; PADDING-LEFT: 19px; PADDING-BOTTOM: 10px; LINE-HEIGHT: 21px; PADDING-TOP: 0px; HEIGHT: 21px
+}
+.en4top1 {
+	MARGIN-TOP: 6px; FLOAT: left; OVERFLOW: hidden; WIDTH: 15px; LINE-HEIGHT: 19px; HEIGHT: 5px; BACKGROUND-COLOR: #e9efef
+}
+.en4top2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; FLOAT: left; MARGIN-LEFT: 10px; WIDTH: 105px; LINE-HEIGHT: 21px; HEIGHT: 21px
+}
+.en4top3 {
+	MARGIN-TOP: 6px; FLOAT: left; OVERFLOW: hidden; WIDTH: 490px; LINE-HEIGHT: 19px; HEIGHT: 5px; BACKGROUND-COLOR: #e9efef
+}
+.en4top4 {
+	FONT-SIZE: 14px; BACKGROUND: url(http://jic.b2b.makepolo.com/img/purchase/cg7.jpg) no-repeat; FLOAT: left; WIDTH: 65px; CURSOR: pointer; LINE-HEIGHT: 21px; HEIGHT: 21px; TEXT-ALIGN: center
+}
+.en4mid {
+	CLEAR: both; PADDING-RIGHT: 10px; PADDING-LEFT: 19px; PADDING-BOTTOM: 10px; PADDING-TOP: 0px; HEIGHT: 100%
+}
+.en4mid_1 {
+	CLEAR: both; MARGIN: 0px 15px 10px; HEIGHT: 100%
+}
+.en4mid_1 UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; OVERFLOW: hidden; PADDING-TOP: 0px
+}
+.en4mid_1 LI {
+	FLOAT: left; WIDTH: 220px
+}
+.midk1 {
+	MARGIN-BOTTOM: 20px; TEXT-ALIGN: center
+}
+.midk1_1 {
+	CLEAR: both; HEIGHT: 55px
+}
+.midimg {
+	BACKGROUND-POSITION: center center; FLOAT: left; WIDTH: 55px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 44px
+}
+.midtitle {
+	PADDING-LEFT: 5px; FLOAT: left; WIDTH: 155px; LINE-HEIGHT: 145%; TEXT-ALIGN: left; WORD-WRAP: break-word
+}
+.lop {
+	FONT-SIZE: 14px
+}
+.midk1_2 {
+	CLEAR: both; PADDING-LEFT: 4px; LINE-HEIGHT: 17px; HEIGHT: 17px; TEXT-ALIGN: left
+}
+.midti {
+	BORDER-TOP-WIDTH: 0px; PADDING-LEFT: 13px; BORDER-LEFT-WIDTH: 0px; BACKGROUND: url(http://jic.b2b.makepolo.com/img/purchase/cg9.jpg) no-repeat; BORDER-BOTTOM-WIDTH: 0px; WIDTH: 50px; CURSOR: pointer; LINE-HEIGHT: 17px; HEIGHT: 17px; BORDER-RIGHT-WIDTH: 0px
+}
+.midti1 {
+	BORDER-TOP-WIDTH: 0px; PADDING-LEFT: 13px; BORDER-LEFT-WIDTH: 0px; BACKGROUND: url(http://jic.b2b.makepolo.com/img/purchase/cg10.jpg) no-repeat; BORDER-BOTTOM-WIDTH: 0px; WIDTH: 50px; CURSOR: pointer; LINE-HEIGHT: 17px; HEIGHT: 17px; BORDER-RIGHT-WIDTH: 0px
+}
+.en5 {
+	CLEAR: both; FONT-WEIGHT: bold; FONT-SIZE: 14px; MARGIN-BOTTOM: 20px; LINE-HEIGHT: 33px; HEIGHT: 33px
+}
+.en5_1 {
+	PADDING-LEFT: 180px; FLOAT: left; LINE-HEIGHT: 33px; HEIGHT: 33px
+}
+.en5_2 {
+	FLOAT: left; MARGIN-LEFT: 10px; WIDTH: 91px; HEIGHT: 33px
+}
+.en5ti {
+	BORDER-TOP-WIDTH: 0px; FONT-WEIGHT: bold; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 14px; BACKGROUND: url(http://jic.b2b.makepolo.com/img/purchase/cg11.jpg) no-repeat; BORDER-BOTTOM-WIDTH: 0px; WIDTH: 91px; CURSOR: pointer; COLOR: #ffffff; HEIGHT: 33px; BORDER-RIGHT-WIDTH: 0px
+}
+.fow {
+	MARGIN-TOP: -17px; MARGIN-LEFT: -4px; TEXT-ALIGN: left
+}
+.warpper_1 {
+	CLEAR: both; BORDER-RIGHT: #2b6799 0px solid; BORDER-TOP: #2b6799 0px solid; MARGIN: 0px auto; OVERFLOW: auto; BORDER-LEFT: #2b6799 0px solid; WIDTH: 602px; BORDER-BOTTOM: #2b6799 0px solid; HEIGHT: 100%
+}
+.liuinp1 {
+	PADDING-LEFT: 11px; FLOAT: left; WIDTH: 167px; HEIGHT: 28px
+}
+.liuinptex1 {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; WIDTH: 167px; PADDING-TOP: 2px; HEIGHT: 16px
+}
+.liutxt1 {
+	FONT-SIZE: 12px; FLOAT: left; MARGIN-LEFT: 30px; WIDTH: 300px
+}
+.lop1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #ff8151
+}
+.liubg5 {
+	FLOAT: left; MARGIN-LEFT: 11px; WIDTH: 450px; HEIGHT: 98px
+}
+.liutext1 {
+	FONT-SIZE: 12px; WIDTH: 444px; COLOR: #989898; HEIGHT: 98px
+}
+.liuxian {
+	PADDING-LEFT: 5px; FLOAT: left; PADDING-TOP: 90px
+}
+.liupitem {
+	CLEAR: both; MARGIN-BOTTOM: 3px; WIDTH: 602px; LINE-HEIGHT: 28px; HEIGHT: 28px
+}
+.liunametxt1 {
+	FONT-SIZE: 12px; FLOAT: left; WIDTH: 80px; TEXT-ALIGN: right
+}
+.liupitem2 {
+	CLEAR: both; MARGIN-BOTTOM: 5px; HEIGHT: 100%
+}
+.liupitem {
+	CLEAR: both; MARGIN-BOTTOM: 3px; WIDTH: 602px; LINE-HEIGHT: 28px; HEIGHT: 28px
+}
+.liuen2 {
+	CLEAR: both; MARGIN-TOP: 20px; WIDTH: 602px; HEIGHT: auto
+}
+.liubg4 {
+	PADDING-LEFT: 11px; FLOAT: left; WIDTH: 450px
+}
+.liuen6 {
+	CLEAR: both; PADDING-RIGHT: 15px; LINE-HEIGHT: 20px; HEIGHT: 20px; TEXT-ALIGN: right
+}
+.liured {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 0px; COLOR: #ff0000; LINE-HEIGHT: 20px; PADDING-TOP: 0px
+}
+.liuen7 {
+	CLEAR: both; MARGIN-TOP: 5px
+}
+.liuen8 {
+	CLEAR: both; PADDING-RIGHT: 13px; PADDING-LEFT: 13px; PADDING-BOTTOM: 13px; LINE-HEIGHT: 165%; PADDING-TOP: 13px
+}
+.kuang1 {
+	CLEAR: both
+}
+.kuang1left {
+	BACKGROUND: url(http://jic.b2b.makepolo.com/img/purchase/cg12.jpg) no-repeat; FLOAT: left; MARGIN-LEFT: 5px; WIDTH: 94px; HEIGHT: 77px
+}
+.kuang1right {
+	FONT-WEIGHT: bold; FONT-SIZE: 17px; FLOAT: left; LINE-HEIGHT: 77px
+}
+.liuen9 {
+	CLEAR: both; PADDING-RIGHT: 0px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 17px; PADDING-BOTTOM: 13px; COLOR: #fb6f72; LINE-HEIGHT: 165%; PADDING-TOP: 13px
+}
+.lop2 {
+	FONT-SIZE: 36px
+}
+.lop3 {
+	FONT-SIZE: 36px; COLOR: #fb6f72
+}
+.liunametxt4 {
+	MARGIN-TOP: 5px; FLOAT: left; WIDTH: 100px; TEXT-ALIGN: center
+}
+.liubg4_1 {
+	PADDING-LEFT: 4px; FLOAT: left; WIDTH: 490px
+}
+.liupitem2_1 {
+	CLEAR: both; MARGIN-BOTTOM: 10px; OVERFLOW: auto; LINE-HEIGHT: 17px; HEIGHT: 100%
+}
+.tty1 {
+	FLOAT: left; WIDTH: 170px; MARGIN-RIGHT: 5px; HEIGHT: 30px
+}
+.tty2 {
+	FLOAT: left; WIDTH: 95px; MARGIN-RIGHT: 5px; HEIGHT: 30px
+}
+.tty3 {
+	FLOAT: left; MARGIN-LEFT: 10px; WIDTH: 100px; HEIGHT: 30px
+}
+.liutext2 {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; WIDTH: 170px; COLOR: #989898; LINE-HEIGHT: 17px; PADDING-TOP: 2px; HEIGHT: 17px
+}
+.liutext3 {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; WIDTH: 95px; COLOR: #989898; LINE-HEIGHT: 17px; PADDING-TOP: 2px; HEIGHT: 17px
+}
+.liunametxt4_1 {
+	FLOAT: left; MARGIN: 0px 5px 0px 7px; WIDTH: 50px; LINE-HEIGHT: 28px; HEIGHT: 30px; TEXT-ALIGN: center
+}
+.cgbg2_2 {
+	FONT-SIZE: 14px; FLOAT: left; LINE-HEIGHT: 26px; HEIGHT: 26px
+}
+.cgbg2_3 {
+	PADDING-RIGHT: 5px; FONT-SIZE: 12px; FLOAT: right; LINE-HEIGHT: 26px; HEIGHT: 26px
+}
+.xunnametxt1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; FLOAT: left; WIDTH: 112px; TEXT-ALIGN: right
+}
+.xunpitem {
+	CLEAR: both; MARGIN-BOTTOM: 7px; WIDTH: 722px; LINE-HEIGHT: 28px; HEIGHT: 28px
+}
+.xunnametxt1_1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; FLOAT: left; WIDTH: 166px; TEXT-ALIGN: right
+}
+.xunpitem_1 {
+	CLEAR: both; MARGIN-BOTTOM: 0px; WIDTH: 722px; LINE-HEIGHT: 28px; HEIGHT: 28px
+}
+.xunpitem2 {
+	CLEAR: both; PADDING-LEFT: 31px; MARGIN-BOTTOM: 10px; HEIGHT: 100%
+}
+.xunbg5 {
+	PADDING-LEFT: 11px; FLOAT: left; WIDTH: 420px; HEIGHT: 110px
+}
+.xunxian {
+	PADDING-RIGHT: 50px; FLOAT: right; PADDING-TOP: 74px
+}
+.xunnametxt4 {
+	MARGIN-TOP: 0px; FLOAT: left; WIDTH: 100px; TEXT-ALIGN: right
+}
+.xunred {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 0px; COLOR: #ff0000; LINE-HEIGHT: 22px; PADDING-TOP: 0px
+}
+.xunbig {
+	CLEAR: both; POSITION: relative; HEIGHT: auto
+}
+.fowy {
+	BORDER-RIGHT: #c8c8c8 1px solid; BORDER-TOP: #c8c8c8 1px solid; Z-INDEX: 1; LEFT: 120px; BORDER-LEFT: #c8c8c8 1px solid; WIDTH: 470px; BORDER-BOTTOM: #c8c8c8 1px solid; POSITION: absolute; TOP: 110px; HEIGHT: auto; BACKGROUND-COLOR: #f9f9f9
+}
+.fowy1 {
+	CLEAR: both; FONT-WEIGHT: bold; LINE-HEIGHT: 20px
+}
+.fowy1_1 {
+	PADDING-LEFT: 4px; FONT-WEIGHT: bold; FLOAT: left; COLOR: #ff0305; LINE-HEIGHT: 20px
+}
+.fowy1_2 {
+	PADDING-RIGHT: 4px; FONT-WEIGHT: bold; FLOAT: right; LINE-HEIGHT: 20px
+}
+.fowy2 {
+	CLEAR: both; PADDING-LEFT: 3px; PADDING-BOTTOM: 5px; COLOR: #999999; LINE-HEIGHT: 185%; HEIGHT: 100%
+}
+.caibp3 {
+	BORDER-RIGHT: #ffcb9b 1px solid; BORDER-TOP: #ffcb9b 1px solid; PADDING-LEFT: 5px; FLOAT: left; BORDER-LEFT: #ffcb9b 1px solid; WIDTH: 445px; LINE-HEIGHT: 25px; BORDER-BOTTOM: #ffcb9b 1px solid; HEIGHT: 25px; BACKGROUND-COLOR: #fff8ee
+}
+.caibp1 {
+	FLOAT: left; WIDTH: 430px; HEIGHT: 100%; BACKGROUND-COLOR: #f8f8f8
+}
+.liuinprea3 {
+	FLOAT: left; WIDTH: 70px; HEIGHT: 28px
+}
+.liuinptex3 {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; WIDTH: 70px; PADDING-TOP: 2px; HEIGHT: 16px
+}

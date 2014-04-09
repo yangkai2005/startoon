@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="starter" version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+
+	<display-name>startoon</display-name>
+
+	<context-param>
+		<param-name>contextConfigLocation</param-name>
+		<param-value>classpath:applicationContext*.xml</param-value>
+	</context-param>
+
+	<filter>
+		<filter-name>encodingFilter</filter-name>
+		<filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
+		<init-param>
+			<param-name>encoding</param-name>
+			<param-value>UTF-8</param-value>
+		</init-param>
+	</filter>
+	<filter>
+		<filter-name>OpenSessionInViewFilter</filter-name>
+		<filter-class>org.j2eeframework.commons.util.J2eeframeworkOpenSessionInViewFilter</filter-class>
+		<init-param>
+			<param-name>excludeSuffixs</param-name>
+			<param-value>js,css,jpg,gif</param-value>
+		</init-param>
+	</filter>
+	<filter>
+		<filter-name>struts2</filter-name>
+		<filter-class>org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter</filter-class>
+	</filter>
+	<filter>
+		<filter-name>EnterpriseUserAuthenticationFilter</filter-name>
+		<filter-class>org.j2eeframework.startoon.web.filter.EnterpriseUserAuthenticationFilter</filter-class>
+	</filter>
+	<filter>
+		<filter-name>AdminUserAuthenticationFilter</filter-name>
+		<filter-class>org.j2eeframework.startoon.web.filter.AdminUserAuthenticationFilter</filter-class>
+	</filter>
+	<filter>
+		<filter-name>ContextPathFilter</filter-name>
+		<filter-class>org.j2eeframework.startoon.web.filter.ContextPathFilter</filter-class>
+	</filter>
+	<!-- 
+	<filter>
+		<filter-name>UrlRewriteFilter</filter-name>
+		<filter-class>org.tuckey.web.filters.urlrewrite.UrlRewriteFilter</filter-class>
+	</filter>
+	-->
+
+	<filter-mapping>
+		<filter-name>encodingFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+	<!-- 
+	<filter-mapping>
+		<filter-name>UrlRewriteFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+		<dispatcher>REQUEST</dispatcher>
+		<dispatcher>FORWARD</dispatcher>
+	</filter-mapping>
+	-->
+	<filter-mapping>
+		<filter-name>ContextPathFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+
+	<filter-mapping>
+		<filter-name>EnterpriseUserAuthenticationFilter</filter-name>
+		<url-pattern>/enterprise/*</url-pattern>
+	</filter-mapping>
+
+	<filter-mapping>
+		<filter-name>EnterpriseUserAuthenticationFilter</filter-name>
+		<url-pattern>/member/*</url-pattern>
+	</filter-mapping>
+
+	<filter-mapping>
+		<filter-name>AdminUserAuthenticationFilter</filter-name>
+		<url-pattern>/admin/*</url-pattern>
+	</filter-mapping>
+
+	<filter-mapping>
+		<filter-name>AdminUserAuthenticationFilter</filter-name>
+		<url-pattern>/backmgr/*</url-pattern>
+	</filter-mapping>
+
+	<filter-mapping>
+		<filter-name>OpenSessionInViewFilter</filter-name>
+		<url-pattern>*.action</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>struts2</filter-name>
+		<url-pattern>*.action</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>struts2</filter-name>
+		<url-pattern>*.jsp</url-pattern>
+	</filter-mapping>
+
+
+	<servlet>
+		<servlet-name>ConnectorServlet</servlet-name>
+		<servlet-class>net.fckeditor.connector.StartoonConnectorServlet</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet>
+		<description>验证码</description>
+		<display-name>IndentifyCodeServlet</display-name>
+		<servlet-name>IndentifyCodeServlet</servlet-name>
+		<servlet-class>
+			org.j2eeframework.startoon.web.servlet.IndentifyCodeServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>FileViewServlet</servlet-name>
+		<servlet-class>org.j2eeframework.startoon.web.servlet.FileViewServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>AdminServlet</display-name>
+		<servlet-name>AdminServlet</servlet-name>
+		<servlet-class>org.j2eeframework.startoon.web.servlet.AdminServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>FileDownloadServlet</servlet-name>
+		<servlet-class>
+			org.j2eeframework.startoon.web.servlet.FileDownloadServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>InformationIndexServlet</servlet-name>
+		<servlet-class>org.j2eeframework.startoon.web.servlet.InformationIndexServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>UploadServlet</servlet-name>
+		<servlet-class>org.j2eeframework.startoon.web.servlet.UploadServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>ConnectorServlet</servlet-name>
+		<url-pattern>/fckeditor/editor/filemanager/connectors/*</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>IndentifyCodeServlet</servlet-name>
+		<url-pattern>/ic</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>FileViewServlet</servlet-name>
+		<url-pattern>/FileView</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AdminServlet</servlet-name>
+		<url-pattern>/sysadmin</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AdminServlet</servlet-name>
+		<url-pattern>/admin</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>FileDownloadServlet</servlet-name>
+		<url-pattern>/dl</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UploadServlet</servlet-name>
+		<url-pattern>/upload</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>InformationIndexServlet</servlet-name>
+		<url-pattern>/information/index.action</url-pattern>
+	</servlet-mapping>
+
+	<listener>
+		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+	</listener>
+
+	<listener>
+		<listener-class>org.springframework.web.context.request.RequestContextListener</listener-class>
+	</listener>
+
+	<listener>
+		<listener-class>org.springframework.web.util.IntrospectorCleanupListener</listener-class>
+	</listener>
+
+	<listener>
+		<listener-class>org.j2eeframework.startoon.listener.InitiationServletContextLoaderListener</listener-class>
+	</listener>
+
+	<session-config>
+		<session-timeout>90</session-timeout>
+	</session-config>
+
+	<error-page>
+		<error-code>404</error-code>
+		<location>/WEB-INF/content/404.jsp</location>
+	</error-page>
+	<error-page>
+		<exception-type>java.lang.Throwable</exception-type>
+		<location>/WEB-INF/content/500.jsp</location>
+	</error-page>
+
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+
+</web-app>

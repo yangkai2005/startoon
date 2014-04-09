@@ -1,0 +1,81 @@
+﻿@IMPORT url("../../resources/css/page.css");
+
+/*Reset*/
+*{ padding:0; margin:0}
+html,div,ul,li,dl,dt,dd,p,h1,h2,h3,h4,h5,h6,img,form,embed,label{margin:0;padding:0;border:0; font-size:12px; font-weight:normal;}
+img{border:none}
+object{ display:block;}
+ul,ul li{ list-style:none;} 
+.cls{clear:both; line-height:0px!important; height:0px!important;font-size:0px!important;} 
+.play{ display:none;} 
+select,input{ vertical-align:middle;font-size:12px;}  
+a {color:#333;text-decoration:none;}
+a:visited {color:#333;text-decoration:none;}
+a:hover {color:#ff3428; text-decoration:underline;}
+a:active {color:#ff3428;}
+.dis{display:block;}
+.undis{display:none;}
+
+ 
+ 
+/*text*/
+.b{ font-weight:bold;}
+.f8{ font-size:8px;}
+.f9{ font-size:9px;}
+.f10{ font-size:10px;}
+.f11{ font-size:11px;}
+.f12{ font-size:12px;}
+.f13{ font-size:13px;}
+.f14{ font-size:14px;}
+.f16{ font-size:16px;}
+.f18{ font-size:18px;}
+.f20{ font-size:20px;}
+
+.f_l{ float:left;}
+.f_r{ float:right;}
+.em{ text-indent:2em;}
+.hei{ color:#000;}
+.red{ color:#f73536;}
+.Arial{ font-family:"Arial", Helvetica, sans-serif;}
+.Yahei{font-family:"微软雅黑";}
+.Songti{font-family:"宋体";}
+ 
+ 
+/*txt btn*/
+.btn{ width:0px; height:0px; border:0; cursor:pointer;}
+.txt1{ width:84px;} 
+.btntijiao{width:62px; height:21px; border:0; cursor:pointer; background:url(../images/btn_tijiao.jpg) no-repeat;}
+.btnjieguo{width:62px; height:21px; border:0; cursor:pointer; background:url(../images/btn_jieguo.jpg) no-repeat;}
+
+/*more*/
+.more{ float:right; padding-top:8px; padding-right:15px; font-size:14px;} 
+#wrap .more a{ color:#fff;}
+.more2{ float:right; padding-right:20px; padding-top:12px;}
+.more3{ float:right; padding-right:60px; padding-top:5px;}
+#wrap .more3 a{ color:#f66103;}
+.more4{ float:left; width:auto; padding-top:7px;}
+.more5{ float:right; padding-right:20px; padding-top:13px;}
+.more6{ float:right; padding-right:70px; padding-top:5px;}
+.more7{ float:right; padding:9px 12px 0 0; font-size:14px;}
+.more8{ float:right; padding-right:10px; padding-top:8px;}
+.more9{ float:right; padding-right:12px; padding-top:10px;}
+.more10{ float:right; padding-right:10px;}
+.vp1{ float:left; padding:11px 0 0 18px; font-size:15px; font-weight:bold;}
+
+
+/*1.4*/
+.title5  .moren{ float:right; padding-right:10px; line-height:30px;} 
+.title5 .moren a{ color:#000;}
+.title5 .moren a:hover{ color:#e67817;}
+
+
+.title6  .moren{ float:right; padding-right:10px; line-height:30px;} 
+.title6 .moren a{ color:#000;}
+.title6 .moren a:hover{ color:#e67817;}
+
+
+
+
+
+
+

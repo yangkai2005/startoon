@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+    <constant name="struts.i18n.encoding" value="utf-8" />
+    <constant name="struts.ui.theme" value="simple" />
+    <constant name="struts.convention.result.path" value="/" /> 
+    <constant name="struts.convention.package.locators" value="actions" />  
+    <constant name="struts.convention.default.parent.package" value="j2eeframework-default"/>
+    <constant name="struts.multipart.parser" value="org.j2eeframework.commons.struts2.multipart.JakartaMultiPartRequest" />
+    <constant name="struts.multipart.maxSize" value="10240000" />
+    <package name="j2eeframework-default" extends="struts-default">
+   		 <result-types>
+    		<result-type name="RestoreRequestParamRedirect" class="org.j2eeframework.commons.struts2.dispathcher.RestoreRequestParamRedirectResult"/>
+    		<result-type name="flexjson"  class="code.google.struts2jsonresult.JSONResult">
+				 <param name="prettyPrint">true</param>  
+				 <param name="target">result</param>  
+			 </result-type>
+    	</result-types>
+    	
+    	<interceptors>
+    		<interceptor name="pagerSupport" class="org.j2eeframework.commons.struts2.interceptor.PagerSupportInterceptor"></interceptor>
+    		<interceptor name="requestParamRecorder" class="org.j2eeframework.commons.struts2.interceptor.RequestParamRecorderInterceptor"></interceptor>
+    		<interceptor name="actionPathInterceptor" class="org.j2eeframework.commons.struts2.interceptor.ActionPathInterceptor"></interceptor>
+    		<interceptor name="fileExceptionInterceptor" class="org.j2eeframework.commons.struts2.interceptor.FileExceptionInterceptor"></interceptor>
+    		<interceptor-stack name="zitopParamsPrepareParamsStack">
+    			<interceptor-ref name="actionPathInterceptor"/>
+    			<interceptor-ref name="paramsPrepareParamsStack"/>
+    		</interceptor-stack>
+    		<interceptor-stack name="zitopDefaultStack">
+    			<interceptor-ref name="actionPathInterceptor"/>
+    			<interceptor-ref name="requestParamRecorder"/>
+    			<interceptor-ref name="pagerSupport"/>
+    			<interceptor-ref name="scopedModelDriven"/>
+    			<interceptor-ref name="paramsPrepareParamsStack"/>
+    		</interceptor-stack>
+    	</interceptors>
+    	
+    	<default-interceptor-ref name="zitopDefaultStack"/>
+    	
+    	<global-results>
+    		<result name="common_list" type="redirectAction" >
+    			<param name="namespace">${namespace}</param>
+    			<param name="actionName">${actionName+"-list"}</param>
+                <param name="restore_params">true</param>
+    		</result>
+    		<result name="admin-login" type="redirect" >/admin-login.jsp</result>
+    		<result name="actionNotFound">/404.jsp</result>
+    		<result name="error">/error.jsp</result>
+    	</global-results>
+    	
+    	<global-exception-mappings>
+    		<exception-mapping result="error" exception="java.lang.Throwable"></exception-mapping>
+    	</global-exception-mappings>
+    </package> 
+</struts>

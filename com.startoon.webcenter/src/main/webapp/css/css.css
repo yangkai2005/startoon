@@ -1,0 +1,210 @@
+A.lkkey:link {
+	COLOR: #0033cc; TEXT-DECORATION: none
+}
+A.lkkey:visited {
+	COLOR: #0033cc; TEXT-DECORATION: none
+}
+A.lkkey:hover {
+	COLOR: #ff0000; TEXT-DECORATION: underline
+}
+A.lkkey:active {
+	COLOR: #ff0000; TEXT-DECORATION: underline
+}
+A.lk1:link {
+	COLOR: #003399; TEXT-DECORATION: none
+}
+A.lk1:visited {
+	COLOR: #003399; TEXT-DECORATION: none
+}
+A.lk1:hover {
+	COLOR: #ff0000; TEXT-DECORATION: underline
+}
+A.lk1:active {
+	COLOR: #ff0000; TEXT-DECORATION: underline
+}
+A.lk2:link {
+	COLOR: #ff8000; TEXT-DECORATION: none
+}
+A.lk2:visited {
+	COLOR: #ff8000; TEXT-DECORATION: none
+}
+A.lk2:hover {
+	COLOR: #ff0000; TEXT-DECORATION: underline
+}
+A.lk2:active {
+	COLOR: #ff0000; TEXT-DECORATION: underline
+}
+.topheader {
+	CLEAR: both; MARGIN-BOTTOM: 8px; LINE-HEIGHT: 28px; HEIGHT: 28px
+}
+.topleft {
+	FLOAT: left
+}
+.topright {
+	FLOAT: right; TEXT-ALIGN: right
+}
+.header {
+	CLEAR: both; MARGIN-BOTTOM: 8px; PADDING-BOTTOM: 8px; WIDTH: 100%; BORDER-BOTTOM: #d3d3d3 1px solid
+}
+.logo {
+	FLOAT: left; WIDTH: 328px
+}
+.logo UL {
+	FLOAT: left
+}
+.logo UL.logoleft {
+	WIDTH: 182px; TEXT-ALIGN: left
+}
+.logo UL.logoright {
+	PADDING-TOP: 40px; TEXT-ALIGN: left
+}
+.logo H1 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 23px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #003399; PADDING-TOP: 0px; FONT-FAMILY: "ºÚÌå"
+}
+.topfont {
+	FONT-WEIGHT: bold; FONT-SIZE: 23px; COLOR: #003399; FONT-FAMILY: "simhei"
+}
+#seacherbar {
+	MARGIN-LEFT: 328px
+}
+#searchMenu {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; HEIGHT: 27px
+}
+#searchMenu UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#searchMenu LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FLOAT: left; PADDING-BOTTOM: 0px; WIDTH: 67px; LINE-HEIGHT: 27px; PADDING-TOP: 0px; HEIGHT: 27px; TEXT-ALIGN: center
+}
+.searchtab1 {
+	PADDING-RIGHT: 0px; BACKGROUND-POSITION: 0px -26px; PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(http://jic.b2b.makepolo.com/img/headbj1.jpg); PADDING-BOTTOM: 0px; PADDING-TOP: 8px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 37px; TEXT-ALIGN: left
+}
+.searchtab2 {
+	PADDING-RIGHT: 0px; BACKGROUND-POSITION: 0px -79px; PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(http://jic.b2b.makepolo.com/img/headbj1.jpg); PADDING-BOTTOM: 0px; PADDING-TOP: 8px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 37px; TEXT-ALIGN: left
+}
+.searchtab3 {
+	PADDING-RIGHT: 0px; BACKGROUND-POSITION: 0px -129px; PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(http://jic.b2b.makepolo.com/img/headbj1.jpg); PADDING-BOTTOM: 0px; PADDING-TOP: 8px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 37px; TEXT-ALIGN: left
+}
+.hotKeyword {
+	CLEAR: both; PADDING-RIGHT: 0px; PADDING-LEFT: 2px; PADDING-BOTTOM: 0px; COLOR: #4c4c4c; LINE-HEIGHT: 185%; PADDING-TOP: 3px; HEIGHT: 21px
+}
+#searchShow {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0px 12px; PADDING-TOP: 0px
+}
+.hmenu {
+	
+}
+.hmenu1 {
+	BACKGROUND-POSITION: 0px 0px; BACKGROUND-IMAGE: url(http://jic.b2b.makepolo.com/img/headbj1.jpg); CURSOR: hand; BACKGROUND-REPEAT: no-repeat; HEIGHT: 27px
+}
+.hmenu2 {
+	CURSOR: hand; COLOR: #003399; HEIGHT: 27px
+}
+.searchInput {
+	BORDER-RIGHT: #d3d3d3 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #7e7e7e 1px solid; PADDING-LEFT: 4px; FONT-SIZE: 14px; PADDING-BOTTOM: 0px; BORDER-LEFT: #7e7e7e 1px solid; WIDTH: 360px; COLOR: #333333; PADDING-TOP: 4px; BORDER-BOTTOM: #d3d3d3 1px solid; HEIGHT: 20px
+}
+.searchBtn {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 14px; PADDING-BOTTOM: 0px; WIDTH: 78px; LINE-HEIGHT: 125%; PADDING-TOP: 1px
+}
+.line1 {
+	CLEAR: both; HEIGHT: 1px
+}
+#reg_div {
+	BORDER-RIGHT: #7f9db9 1px solid; BORDER-TOP: #7f9db9 1px solid; Z-INDEX: 30; BACKGROUND: #fff; BORDER-LEFT: #7f9db9 1px solid; WIDTH: 366px; BORDER-BOTTOM: #7f9db9 1px solid; POSITION: absolute; HEIGHT: auto
+}
+#reg_div UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 14px; PADDING-BOTTOM: 0px; MARGIN: 0px; LINE-HEIGHT: 25px; PADDING-TOP: 0px
+}
+#reg_div LI {
+	COLOR: #333; TEXT-DECORATION: none
+}
+#reg_div LI A:link {
+	DISPLAY: block; PADDING-LEFT: 10px; FONT-SIZE: 14px; CURSOR: hand; COLOR: #333; LIST-STYLE-TYPE: square; HEIGHT: 25px; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+#reg_div LI A:visited {
+	DISPLAY: block; PADDING-LEFT: 10px; FONT-SIZE: 14px; CURSOR: hand; COLOR: #333; LIST-STYLE-TYPE: square; HEIGHT: 25px; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+#reg_div LI A:hover {
+	DISPLAY: block; PADDING-LEFT: 10px; FONT-SIZE: 14px; CURSOR: hand; COLOR: #fff; LIST-STYLE-TYPE: square; HEIGHT: 25px; BACKGROUND-COLOR: #003399; TEXT-ALIGN: left
+}
+#reg_div LI A:active {
+	DISPLAY: block; PADDING-LEFT: 10px; FONT-SIZE: 14px; CURSOR: hand; COLOR: #fff; LIST-STYLE-TYPE: square; HEIGHT: 25px; BACKGROUND-COLOR: #003399; TEXT-ALIGN: left
+}
+#reg_div1 {
+	BORDER-RIGHT: #7f9db9 1px solid; BORDER-TOP: #7f9db9 1px solid; Z-INDEX: 30; BACKGROUND: #fff; BORDER-LEFT: #7f9db9 1px solid; WIDTH: 329px; BORDER-BOTTOM: #7f9db9 1px solid; POSITION: absolute; HEIGHT: auto
+}
+#reg_div1 UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 14px; PADDING-BOTTOM: 0px; MARGIN: 0px; LINE-HEIGHT: 25px; PADDING-TOP: 0px
+}
+#reg_div1 LI {
+	COLOR: #333; TEXT-DECORATION: none
+}
+#reg_div1 LI A:link {
+	DISPLAY: block; PADDING-LEFT: 10px; FONT-SIZE: 14px; CURSOR: hand; COLOR: #333; LIST-STYLE-TYPE: square; HEIGHT: 25px; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+#reg_div LI A:visited {
+	DISPLAY: block; PADDING-LEFT: 10px; FONT-SIZE: 14px; CURSOR: hand; COLOR: #333; LIST-STYLE-TYPE: square; HEIGHT: 25px; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+#reg_div1 LI A:hover {
+	DISPLAY: block; PADDING-LEFT: 10px; FONT-SIZE: 14px; CURSOR: hand; COLOR: #fff; LIST-STYLE-TYPE: square; HEIGHT: 25px; BACKGROUND-COLOR: #003399; TEXT-ALIGN: left
+}
+#reg_div LI A:active {
+	DISPLAY: block; PADDING-LEFT: 10px; FONT-SIZE: 14px; CURSOR: hand; COLOR: #fff; LIST-STYLE-TYPE: square; HEIGHT: 25px; BACKGROUND-COLOR: #003399; TEXT-ALIGN: left
+}
+.layer_search1 {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 0px; FONT-SIZE: 14px; PADDING-BOTTOM: 2px; PADDING-TOP: 5px; HEIGHT: 20px; BACKGROUND-COLOR: #f0f8ff; TEXT-ALIGN: right
+}
+#footer {
+	CLEAR: both; BORDER-TOP: #eee 1px solid; PADDING-BOTTOM: 12px; MARGIN: 10px auto 5px; COLOR: #666; PADDING-TOP: 30px; TEXT-ALIGN: center
+}
+#copyright {
+	MARGIN: 0px; LINE-HEIGHT: 185%; PADDING-TOP: 3px
+}
+.onShow {
+	PADDING-LEFT: 20px; FONT-SIZE: 12px; VERTICAL-ALIGN: middle; WORD-BREAK: break-all; LINE-HEIGHT: 22px
+}
+.onFocus {
+	PADDING-LEFT: 20px; FONT-SIZE: 12px; VERTICAL-ALIGN: middle; WORD-BREAK: break-all; LINE-HEIGHT: 22px
+}
+.onError {
+	PADDING-LEFT: 20px; FONT-SIZE: 12px; VERTICAL-ALIGN: middle; WORD-BREAK: break-all; LINE-HEIGHT: 22px
+}
+.onCorrect {
+	PADDING-LEFT: 20px; FONT-SIZE: 12px; VERTICAL-ALIGN: middle; WORD-BREAK: break-all; LINE-HEIGHT: 22px
+}
+.onLoad {
+	PADDING-LEFT: 20px; FONT-SIZE: 12px; VERTICAL-ALIGN: middle; WORD-BREAK: break-all; LINE-HEIGHT: 22px
+}
+.onShow {
+	
+}
+.onFocus {
+	BORDER-RIGHT: #3fb3fe 1px solid; PADDING-RIGHT: 2px; BACKGROUND-POSITION: 5px 5px; BORDER-TOP: #3fb3fe 1px solid; MARGIN-TOP: 1px; PADDING-LEFT: 25px; BACKGROUND-IMAGE: url(http://jic.b2b.makepolo.com/img/validator/onFocus.gif); PADDING-BOTTOM: 2px; BORDER-LEFT: #3fb3fe 1px solid; COLOR: #666666; LINE-HEIGHT: 165%; PADDING-TOP: 2px; BORDER-BOTTOM: #3fb3fe 1px solid; BACKGROUND-REPEAT: no-repeat; BACKGROUND-COLOR: #e4f5ff
+}
+.onError {
+	BORDER-RIGHT: #ffba75 1px solid; PADDING-RIGHT: 2px; BACKGROUND-POSITION: 5px 5px; BORDER-TOP: #ffba75 1px solid; MARGIN-TOP: 1px; PADDING-LEFT: 25px; BACKGROUND-IMAGE: url(http://jic.b2b.makepolo.com/img/validator/onError.gif); PADDING-BOTTOM: 2px; BORDER-LEFT: #ffba75 1px solid; COLOR: #666666; LINE-HEIGHT: 165%; PADDING-TOP: 2px; BORDER-BOTTOM: #ffba75 1px solid; BACKGROUND-REPEAT: no-repeat; BACKGROUND-COLOR: #fff5e8
+}
+.onCorrect {
+	PADDING-RIGHT: 2px; BACKGROUND-POSITION: 5px 5px; MARGIN-TOP: 1px; PADDING-LEFT: 25px; BACKGROUND-IMAGE: url(http://jic.b2b.makepolo.com/img/validator/onCorrect.gif); PADDING-BOTTOM: 2px; LINE-HEIGHT: 165%; PADDING-TOP: 2px; BACKGROUND-REPEAT: no-repeat
+}
+.onLoad {
+	PADDING-RIGHT: 10px; BACKGROUND: url(http://jic.b2b.makepolo.com/img/validator/onLoad.gif) #e9ffeb no-repeat 0px 3px
+}
+#a_fresh_vcode {
+	CURSOR: pointer
+}
+#img_vcode {
+	CURSOR: pointer
+}
+.ptitle1 {
+	MARGIN-BOTTOM: 10px; OVERFLOW: hidden; LINE-HEIGHT: 185%
+}
+.ptitle1 DIV.ps1 {
+	FLOAT: left
+}
+.ps1 H1 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 25px; PADDING-BOTTOM: 0px; MARGIN: 0px; LINE-HEIGHT: 100%; PADDING-TOP: 0px
+}
+.ptitle1 DIV.ps2 {
+	MARGIN-TOP: 5px; FLOAT: right
+}

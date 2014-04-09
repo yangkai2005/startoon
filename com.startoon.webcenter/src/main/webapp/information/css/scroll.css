@@ -1,0 +1,40 @@
+/* CSS Document */
+.dumascroll {float:left;display:inline;width:646px;padding:0px 20px 10px 10px;overflow:hidden;}		
+.dumascroll_area{height:180px;overflow:hidden;}
+.dumascroll_bar,.dumascroll_handle,.dumascroll_handle_a,.dumascroll_arrow_up,.dumascroll_arrow_up_a,.dumascroll_arrow_down,.dumascroll_arrow_down_a {
+/*background-image:url(../images/bg_scrollbar.jpg);*/}
+.dumascroll_bar {
+	position:absolute;
+	top:0px;
+	right:0;
+	z-index:9;
+	width:9px;
+	height:180px;
+	cursor:default;
+	-moz-user-select:none;
+	-khtml-user-select:none;
+	user-select:none;
+	background:url(../images/scrollBar.jpg) 4px top repeat-y;
+	float:left;
+	
+}
+.dumascroll_arrow_up,.dumascroll_arrow_up_a,.dumascroll_handle,.dumascroll_handle_a,.dumascroll_arrow_down,.dumascroll_arrow_down_a {
+	position:absolute;
+	left:0;
+}
+.dumascroll_arrow_up,.dumascroll_arrow_up_a,.dumascroll_arrow_down,.dumascroll_arrow_down_a {
+	width:100%;
+	height:0;
+	color:#f0e0c9;
+	text-align:center;
+}
+.dumascroll_arrow_up,.dumascroll_arrow_up_a { }
+.dumascroll_arrow_down,.dumascroll_arrow_down_a { bottom:0px; }
+.dumascroll_handle,.dumascroll_handle_a { width:100%;}
+.dumascroll_arrow_up { background-position:0 0; }
+.dumascroll_arrow_up_a { background-position:-14px 0; }
+.dumascroll_handle { background:url(../images/scrollButton.jpg) center  no-repeat;cursor:pointer;}
+.dumascroll_handle_a {background:url(../images/scrollButton.jpg) center  no-repeat;cursor:pointer;}
+.dumascroll_arrow_down { background-position:-70px 0; }
+.dumascroll_arrow_down_a { background-position:-84px 0; }
+

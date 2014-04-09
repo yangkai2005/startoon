@@ -1,0 +1,46 @@
+/* jQuery TreeTable Core 2.0 stylesheet
+ *
+ * This file contains styles that are used to display the tree table. Each tree
+ * table is assigned the +treeTable+ class.
+ * ========================================================================= */
+
+/* jquery.treeTable.collapsible
+ * ------------------------------------------------------------------------- */
+.treeTable tr td .expander {
+  background-position: left center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  padding: 0;
+  zoom: 1; /* IE7 Hack */
+}
+
+.treeTable tr.collapsed td .expander {
+  background-image: url(../images/toggle-expand-dark.png);
+}
+
+.treeTable tr.expanded td .expander {
+  background-image: url(../images/toggle-collapse-dark.png);
+}
+
+/* jquery.treeTable.sortable
+ * ------------------------------------------------------------------------- */
+.treeTable tr.selected, .treeTable tr.accept,.treeTable tr.selected:hover, .treeTable tr.accept:hover {
+  background-color: #A5D9F0; color: #0A326F; }
+.treeTable tr.selected span, .treeTable tr.accept span,.treeTable tr.selected:hover span, .treeTable tr.accept:hover span {
+font-weight:bolder; }
+.treeTable tr.selected i, .treeTable tr.accept i,.treeTable tr.selected:hover i, .treeTable tr.accept:hover i {color: #6DA4C0; font-weight:normal;}
+.treeTable tr.selected a, .treeTable tr.accept a,.treeTable tr.selected:hover a, .treeTable tr.accept:hover a {font-weight:normal;}
+.treeTable tr:hover{ background-color:#FEFEDD;}
+
+.treeTable tr.collapsed.selected td .expander, .treeTable tr.collapsed.accept td .expander {
+  background-image: url(../images/toggle-expand-light.png);
+}
+
+.treeTable tr.expanded.selected td .expander, .treeTable tr.expanded.accept td .expander {
+  background-image: url(../images/toggle-collapse-light.png);
+}
+
+.treeTable .ui-draggable-dragging {
+  color: #000;
+  z-index: 1;
+}

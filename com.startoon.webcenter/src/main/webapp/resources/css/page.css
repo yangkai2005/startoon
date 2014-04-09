@@ -1,0 +1,35 @@
+/*CSS page style*/
+.PageLine{width:99%; height:25px; margin-top:10px;}
+.PageLineInfo{float:left; padding-left:10px; line-height:25px;}
+.PageLineInfo a{margin:0px 3px 0px 3px; text-decoration:underline;}
+div.page{float:right; padding:3px; margin:5px 3px 3px 3px; font-family: Arial; font-size: 7pt; text-align:center;}
+div.page a{border:#8db5d7 1px solid; color:#000; text-decoration:none; margin:0px 2px 0px 2px; padding:2px 5px 2px 5px;}
+div.page a:hover {border: red 1px solid; margin:0px 2px 0px 2px; padding:2px 5px 2px 5px;}
+div.page a:active {border: red 1px solid; margin:0px 2px 0px 2px; padding:2px 5px 2px 5px;}
+div.page span.current {border: #E89954 1px solid; margin:0px 2px 0px 2px; padding:2px 5px 2px 5px; color:#000; font-weight:bolder; background-color:#FFCA7D}
+div.page span.disabled {border: #CCC 1px solid; margin:0px 2px 0px 2px; padding:2px 5px 2px 5px; color:#CCC;}
+div.page span.pageinfo {color: #999; font-size:9pt; margin-right:10px; vertical-align:bottom;}
+div.page span.pageinfo b {color: #666; margin:0px 2px 0px 2px;}
+/*CSS page style*/
+
+.mainList div.page{width:100%; float:left; text-align:right; margin:0; padding:10px 20px 10px 0; background-color:#F9F9F9;}
+
+/*CSS scott style pagination*/
+DIV.scott {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; MARGIN: 3px; PADDING-TOP: 3px; TEXT-ALIGN: center
+}
+DIV.scott A {
+	BORDER-RIGHT: #ddd 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #ddd 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 2px; BORDER-LEFT: #ddd 1px solid; COLOR: #88af3f; MARGIN-RIGHT: 2px; PADDING-TOP: 2px; BORDER-BOTTOM: #ddd 1px solid; TEXT-DECORATION: none
+}
+DIV.scott A:hover {
+	BORDER-RIGHT: #85bd1e 1px solid; BORDER-TOP: #85bd1e 1px solid; BORDER-LEFT: #85bd1e 1px solid; COLOR: #638425; BORDER-BOTTOM: #85bd1e 1px solid; BACKGROUND-COLOR: #f1ffd6
+}
+DIV.scott A:active {
+	BORDER-RIGHT: #85bd1e 1px solid; BORDER-TOP: #85bd1e 1px solid; BORDER-LEFT: #85bd1e 1px solid; COLOR: #638425; BORDER-BOTTOM: #85bd1e 1px solid; BACKGROUND-COLOR: #f1ffd6
+}
+DIV.scott SPAN.current {
+	BORDER-RIGHT: #b2e05d 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #b2e05d 1px solid; PADDING-LEFT: 5px; FONT-WEIGHT: bold; PADDING-BOTTOM: 2px; BORDER-LEFT: #b2e05d 1px solid; COLOR: #fff; MARGIN-RIGHT: 2px; PADDING-TOP: 2px; BORDER-BOTTOM: #b2e05d 1px solid; BACKGROUND-COLOR: #b2e05d
+}
+DIV.scott SPAN.disabled {
+	BORDER-RIGHT: #f3f3f3 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #f3f3f3 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 2px; BORDER-LEFT: #f3f3f3 1px solid; COLOR: #ccc; MARGIN-RIGHT: 2px; PADDING-TOP: 2px; BORDER-BOTTOM: #f3f3f3 1px solid
+}

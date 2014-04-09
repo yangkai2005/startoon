@@ -1,0 +1,6 @@
+.optiton i{color:#F64000;}
+.multipleSelect{width:280px; height:100px; margin-right:5px; vertical-align: baseline;}
+table.windowTable textarea.qe_textarea{width:280px; height:50px;}
+table.windowTable textarea.qd_textarea{width:280px; height:80px;}
+.questionInfoBorder{width:98%; margin:0 auto; overflow:hidden; min-height:30px; padding:5px 0 15px 0; background-color:#EDF6FC; border-bottom:1px solid #83BBD9;}
+.questionInfoBorder table.searchTable th{ vertical-align:top; color:#333;}

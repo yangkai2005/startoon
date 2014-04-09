@@ -1,0 +1,53 @@
+/* common */
+.newQuestions,.alreadyQ,.AQInfo{ width:98%; margin:0px auto; overflow:hidden;}
+.newQuestions,.alreadyQ,.AQInfo{ min-height:30px; margin-bottom:10px;}
+.qTitle{ padding:0px 10px; height:26px; line-height:27px; overflow:hidden; margin-bottom:10px;}
+.qTable,.notesTable{ border-collapse:collapse; width:100%;}
+.qTable td{ padding:3px 10px;}
+.notesTable th{ padding:3px 5px; width:50px; text-align:right; vertical-align:top;} 
+.notesTable td{ padding:3px 5px;}
+.notesTable textarea{ width:400px; height:150px;}
+.notesTable{ margin-bottom:20px;}
+.AQ{ min-height:50px; overflow:hidden; padding:0px 10px 10px 10px;}
+.subject{ width:100%;min-height:10px; overflow:hidden; padding:5px 0px;}
+.cnotes{ min-height:20px; padding-top:4px; overflow:hidden; width:100%; position:relative;}
+.cnotesBg{ min-height:20px; overflow:hidden; padding:5px; line-height:160%;}
+.Triangle{ width:9px; height:5px; overflow:hidden; position:absolute; left:30px; top:0px;}
+.subject span{ margin-left:10px;}
+.AQInfo{ padding:5px 0px;}
+.AQInfo p{ padding:0px 10px 0px 10px; line-height:160%;}
+.AQTips{ min-height:50px;text-align:center; width:600px;margin-top:30px; margin-left:10px; padding-bottom:40px;}
+.AQTips h4{ margin-top:20px; margin-bottom:10px;}
+.AQTips p{ padding:5px; line-height:200%;}
+.Notesbg{ width:98%; min-height:50px; overflow:hidden; margin:50px 0px 10px 0px;}
+.Notes{width:24.9%; min-height:50px;overflow:hidden; float:left;}
+.NotesTitle{ padding:0px 10px; height:26px; overflow:hidden; border-bottom:1px dashed #cecece; line-height:27px; margin-right:10px; margin-left:10px;}
+.Notes ul{ padding:5px 10px 20px 10px;}
+.Notes li{ padding:3px 0px 3px 10px;}
+
+/* skin img */
+.qTitle,.alreadyQ .qTitle{ background-image:url(../images/admin_x.gif); background-repeat:repeat-x;}
+.Triangle{ background-image:url(../images/s.gif); background-repeat:no-repeat;}
+.Notes li{ background-image:url(../images/point_hui.gif); background-repeat:no-repeat; background-position:0px 10px;}
+.qTitle{ background-position:0px -274px;}
+.alreadyQ .qTitle{ background-position:0px -915px;}
+
+
+/* background color and border */
+.newQuestions,.AQInfo,.AQTips{ border:1px solid #d6d6d6; background-color:#f9f9f9;}
+.qTitle{ border-bottom:1px solid #e2e1e1;}
+.alreadyQ{border:1px solid #b8e1fe; background-color:#f4fafe;}
+.alreadyQ .qTitle{ border-bottom:1px solid #b8e1fe;}
+.cnotesBg{ background-color:#ffffff; border:1px solid #e2e1e1;}
+
+
+
+/* font modify */
+.notesTable th{ font-weight:normal;}
+/* font size */
+.qTitle b,.qTable b,.subject b{ font-size:14px;}
+/* font color */
+.qTitle b,.qTable td b,.Notes{ color:#000000;}
+.notesTable th,.subject span a{ color:#999999;}
+.subject b{ color:#005fac;}
+.cnotesBg span,.subject span a:hover,.AQTips h4{ color:#fe0000;}

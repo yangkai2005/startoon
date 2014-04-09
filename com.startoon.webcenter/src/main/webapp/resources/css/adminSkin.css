@@ -1,0 +1,169 @@
+/* font size */
+body,input,select,.btn{font-size:9pt; font-family:Arial;}
+h1,.welcomeNewsTop,.bbig,.editOKInfo,.delInfo,.NOLine b,.regMainTitle b,.regName,p.mg b{font-size:14px;}
+h2{font-size:16px;}
+
+/* font color */
+a{color:#005FAC; text-decoration:underline;}
+.leftTop a,.leftTop b,.regMainTitle b,.mainTabsOn a,.mainTabsOn a:hover,.mainTabsOff a:hover,.yinline a:hover,.qalistTitle b{color:#0A326F;}
+a:hover,.loginName span,.welcomeTop b,.welcomeNewsTop b,.delInfo,.TypeWrong,.bbig i,.stTable td b{color:#F64000;}
+.loginName,#menu .item ul li a,h1,.bbig,.leftTop a:hover,.yinline a,.qctt{color:#000;}
+.billTitleTable th,.borderTitle b,.windowTable th{color:#333;}
+body{color:#666;}
+.welcomeTop{color:#888;}
+i,.footer,.qalistInfo,.addTable th{font-style:normal; color:#999;}
+.copyright{color:#BDBDBD;}
+#menu .item ul li.light a,.yinlineOn a{color:#FFF;}
+.editOKInfo{color:#4A8F01;}
+.qctt b{color:#CB4B05;}
+.leftTop a,.leftTop a:hover,#menu a,.toolBt a,.windowBtn a,.searchTable a,.billTable a,.billTitleTable td a,.topMenu a,.qalistTitle b a,.leftTop a,.editNavList a,.mainTabsLine a,.qalistBT a{text-decoration:none;}
+.mainTabsLine a:hover{text-decoration:underline;}
+.qctt{font-weight:bolder;}
+
+
+/* skin img */
+.topBg,.welcomeTop,.newsTitle,.Toolbar,.listTable th,.billTitleTable th,.btn,.windowTitle,#menu .item ul li.light,.qalistTitle,.qalistTable th,.qalistBT,.btn_no,.leftTop,.bb1:hover,.bb2:hover,.addToolbar,.editNavList a,.mainTabsLine,.yinlineOn
+{background-image: url(../images/admin_x.gif); background-repeat:repeat-x;}
+.icon_export,.icon_import,.icon_home,.icon_user,.icon_MyDocuments,.icon_listOK,.icon_listNO,.icon_system,.icon_lead,.icon_luck,.icon_search,.icon_bigfile,.icon_mail,.icon_down,.icon_txt,.icon_team,.icon_MyPictures,.icon_MyMusic,.icon_NewFile,.icon_UsersFile,.icon_doc,.icon_xls,.icon_jpg,.icon_exe,.icon_zip,.icon_mp3,.icon_default,.icon_video,.icon_ppt,.icon_list,.icon_add,.icon_sub,.icon_back,.icon_next,.icon_del,.icon_smsList,.icon_edit,.icon_upload,.ts_grey,.ts_red,.ts_green,.window_close,.editOKicon,.delicon,.icon_yes,.icon_no,.icon_wait,.icon_day,.aTop,.aBottom,.topMenu b.menuOn,.topMenu b.menuOff,#menu .item,.icon_listWait,.icon_listLuck,.icon_help,.icon_importList,.icon_jia,.directive div.crow,.icon_arrow
+{background-image:url(../images/adminSkin.gif); background-repeat:no-repeat; overflow:hidden;}
+
+.welcomeTop{background-position:0 -67px;}
+.newsTitle{background-position:0 -189px;}
+.Toolbar,.addToolbar{background-position:0 -227px; background-color:#DCEFFB;}
+.listTable th,.billTitleTable th,.qalistTable th{background-position:0 -274px; background-color:#E9E9E9;}
+.ts_grey{background-position:-591px 2px; color:#999;}
+.ts_red{background-position:-591px -19px; color:#FF0000;}
+.ts_green{background-position:-591px -39px; color:#4A8F01;}
+.ts_grey,.ts_red,.ts_green{padding-left:12px; margin-left:5px;}
+.windowTitle{background-position:0 -404px; color:#FFF;}
+.window_close{background-position:-456px -99px; width:10px; height:10px; display: inline; float:right; margin:8px 8px 0 0;}
+.editOKicon{background-position:-267px -86px;}
+.delicon{background-position:-232px -86px;}
+.aTop{background-position:-192px -121px;}
+.aBottom{background-position:-192px -187px;}
+.topMenu b.menuOn{background-position:0px 0px; color:#FFF;}
+.topMenu b.menuOff{background-position:-120px 0px; color:#639FBB;}
+.topMenu b.menuOff:hover{background-position:-240px 0px; color:#025D95;}
+#menu .item{background-position:0px -27px;}
+#menu .item ul li.light,.yinlineOn{background-position:0px -442px; color:#FFF;}
+.qalistTitle{background-position:0px -507px; border-left:1px solid #FFF; border-right:1px solid #FFF;}
+.qalistBT{background-position:0 -543px; background-color:#EAF5FD;}
+.leftTop{background-position:0 -648px; background-color:#B6DFFC; border-bottom:1px solid #83BBD9;}
+.bb1{background-image: url(../images/admin_x.gif); background-repeat:no-repeat; background-position:right -704px;}
+.bb1:hover,.bb2:hover{background-position:0 -744px;}
+
+.editNavList a{background-position:0 -795px; background-color:#1787CE; border:1px solid #00518E; color:#FFF; font-weight:bolder;}
+.editNavList a:hover{background-position:0 -833px; background-color:#80E0FF; border:1px solid #44D0FF; color:#000; font-weight:bolder;}
+.directive div.crow{background-position:-295px -50px;}
+
+/* border */
+.welcomeNewsBorder{border:1px solid #DBDBDB; background-color:#FFF;}
+.welcomeNewsTop{border-bottom:1px solid #DBDBDB;}
+.windowSize510{background-color:#F0FAFE;}
+.windowBtn,.yinborder{border:1px solid #C4DDE9;}
+.windowBtn{ border-width:1px 0px 0px 0px; background-color:#F0FAFE;}
+.windowMain,.windowScrollMain{background-color:#FFF;}
+.searchBar,.qalistPage,.surveySitting{background-color:#EDF6FC;}
+.nameLine{border:1px solid #EDEDED; border-top:0; background-color:#F9F9F9;}
+.NOLine{border:1px solid #EDEDED; background-color:#FFFDD7;}
+.loginInput,.loginYzm{height:20px; background-color:#EBF8FF; border:1px solid #7F9DB9; font-weight:bolder; color:#000;}
+.qalist{border:1px solid #83BBD9;}
+.mainAdd,.mainTabsAdd{border:1px solid #EDEDED; background-color:#FDFDFD;}
+.mainTabsAdd{border-top:0px;}
+.regMainTitle{border-bottom:1px solid #E1EFF3;}
+.regInputText,.regInput select,.regInput textarea{border:1px solid #9DD2FE; background-color:#EBF8FF;}
+.mainTabsOn,.mainTabsOff{border:1px solid #7AB8EF;}
+.mainTabsLine{background-position:0px -866px;}
+.mainTabsOn{border-width:1px 1px 1px 1px; border-bottom:1px solid #FFF; font-weight:bolder;}
+.mainTabsOff{background-color:#DEEFFA;}
+.mainTabsNo{border:1px solid #D4D4D4; border-width:1px 1px 0px 1px; background-color:#F4F4F4; color:#999;}
+.borderTitle{background-color:#F0F5F8;}
+.yinFormBorder div.borderTitle,.screen div.borderTitle{border:1px solid #C4DDE9;}
+.yinbtnline{border-top:1px solid #EFEFEF; background-color:#F6F6F6;}
+.yinlineOn{background-color:#389FE1;}
+.directiveBorder,.stTable,.stTable th{border:1px solid #F6C082; background-color:#FFFFE1;}
+.qalistTable,.questContent,.surveySitting{border:1px solid #D6D6D6; border-width:1px 0px 0px 0px;}
+.screenText{border:1px solid #F0F0F0;}
+
+
+/* button */
+.btn{width:auto; background-position:0px -344px; background-color:#D4EEFD; border:1px solid #72A1BD; color:#333; font-size:9pt; cursor:hand; text-align:center;}
+.btn:hover{background-position:0px -373px; background-color:#8AD0FF; border:1px solid #72A1BD; color:#000;}
+button.btn,input.btn{height:25px; padding:0 10px 0px 10px;}
+* html .btn{zoom:1; vertical-align: baseline;}
+* html .btn_no{zoom:1; vertical-align: baseline;}
+* html span.btn{padding:0px 15px 0px 15px; text-decoration:none; zoom:1; vertical-align: baseline;}
+*+ html span.btn{padding:4px 15px 2px 15px; width:auto; text-decoration:none; float: none; }
+span.btn,span.btn_no,span.btn_no:hover{padding:3px 15px 5px 15px; text-decoration:none;!important;}
+* html span.btn_no{padding:0px 15px 0px 15px; text-decoration:none;}
+*+ html span.btn_no{padding:3px 15px 2px 15px; width:auto; text-decoration:none; float: none;}
+* html span.btn_no:hover{padding:3px 15px 3px 15px; text-decoration:none;}
+*+ html span.btn_no:hover{padding:3px 15px 2px 15px; width:auto; text-decoration:none; float: none;}
+.toolBt span.btn,.loginType span.btn,.toolBt span.btn_no,.loginType span.btn_no{float:left; margin-right:5px; padding-top:3px; padding-bottom:3px;}
+.loginType span.btn,.bigBtnLine .btn{width:80px; font-size:14px; font-weight:bolder; text-decoration:none; }
+.loginType button.btn,.loginType button.btn_no,.loginType input.btn,.loginType input.btn_no,.bigBtnLine .btn{width:112px; height:31px; font-size:14px; font-weight:bolder;}
+.windowBtn .btn{float:right; margin-right:5px; padding-top:3px; padding-bottom:3px;}
+.loginType .btn,.bigBtnLine .btn{background-position:0px -373px; background-color:#8AD0FF; border:1px solid #72A1BD; color:#000;}
+.loginType .btn:hover,.bigBtnLine .btn:hover{background-position:0px -473px; background-color:#F6CE88; border:1px solid #C07F0B; color:#9B2901;}
+
+.btn_no,.btn_no:hover{height:25px; background-position:0 -595px; line-height:22px; border:1px solid #BABABA; background-color:#F3F3F3; color:#999;width:auto; padding:0 10px 0 10px; text-align:center; cursor:not-allowed; text-decoration:none; }
+
+/* icon */
+.icon_import{background-position:-381px 0px; padding-left:17px;}
+.icon_export{background-position:-408px 0px; padding-left:14px;}
+.icon_home{background-position:-432px 0px; padding-left:14px;}
+.icon_user{background-position:-457px 0px; padding-left:14px;}
+.icon_MyDocuments{background-position:-481px 0px; padding-left:14px;}
+.icon_listOK{background-position:-585px -171px; padding-left:16px;}
+.icon_listNO{background-position:-585px -147px; padding-left:16px;}
+.icon_system{background-position:-555px 0px; padding-left:14px;}
+.icon_lead{background-position:-381px -26px; padding-left:14px;}
+.icon_luck{background-position:-408px -26px; padding-left:14px;}
+.icon_search{background-position:-432px -26px; padding-left:14px;}
+.icon_mail{background-position:-457px -23px; padding-left:14px;}
+.icon_down{background-position:-481px -26px;}
+.icon_down img{width:15px; height:15px;}
+.icon_txt{background-position:-555px -26px; padding-left:14px;}
+.icon_team{background-position:-381px -50px; padding-left:14px;}
+.icon_MyPictures{background-position:-481px -50px; padding-left:14px;}
+.icon_MyMusic{background-position:-505px -50px; padding-left:14px;}
+.icon_NewFile{background-position:-530px -50px; padding-left:14px;}
+.icon_UsersFile{background-position:-555px -50px; padding-left:14px;}
+.icon_list{background-position:-408px -50px; padding-left:14px;}
+.icon_doc{background-position:-381px -74px; padding-left:16px;}
+.icon_xls{background-position:-408px -74px; padding-left:16px;}
+.icon_jpg{background-position:-432px -50px; padding-left:16px;}
+.icon_exe{background-position:-432px -74px; padding-left:16px;}
+.icon_zip{background-position:-457px -74px; padding-left:16px;}
+.icon_mp3{background-position:-481px -74px; padding-left:16px;}
+.icon_default{background-position:-505px -74px; padding-left:16px;}
+.icon_video{background-position:-530px -74px; padding-left:16px;}
+.icon_ppt{background-position:-555px -74px; padding-left:16px;}
+.icon_add{background-position:-505px -26px; padding-left:14px;}
+.icon_sub{background-position:-530px -26px; padding-left:13px;}
+.icon_back{background-position:-381px -99px; padding-left:12px;}
+.icon_next{background-position:-409px -99px; padding-left:12px;}
+.icon_del{background-position:-481px -96px; padding-left:9px;}
+.yinlineOn span.icon_del,.yinline span.icon_del{background-position:-479px -96px;}
+.icon_smsList{background-position:-457px -50px; padding-left:16px;}
+.icon_edit{background-position:-505px -99px; padding-left:14px;}
+.yinlineOn span.icon_edit,.yinline span.icon_edit{background-position:-352px -72px;}
+.yinborderInfo .icon_edit img,.yinborderInfo .icon_del img{width:10px; height:10px;}
+.icon_upload{background-position:-530px -99px; padding-left:16px;}
+.icon_bigfile{background-position:-192px -85px; display:block; float:left; width:35px; height:30px;}
+.icon_yes{background-position:-590px -61px; padding-left:12px; color:#4A8F01;}
+.billTable .icon_yes{background-position:-590px -59px; padding-left:12px;}
+#menu span.icon_yes{background-position:-589px -58px; padding-left:14px;}
+
+.icon_no{background-position:-590px -82px; padding-left:12px; color:#F64000;}
+.icon_wait{background-position:-590px -102px; padding-left:12px; color:#999;}
+#menu span.icon_wait{background-position:-589px -101px; padding-left:14px;}
+.icon_day{background-position:-555px -99px;}
+.icon_day img{width:14px; height:16px;}
+.icon_listWait{background-position:-585px -123px; padding-left:16px; color:#333;}
+.icon_listLuck{background-position:-585px -195px; padding-left:16px;}
+.icon_help{background-position:-354px -99px; padding-left:16px;}
+.icon_importList{background-position:-328px -50px; padding-left:14px;}
+.icon_jia{background-position:-328px -71px; padding-left:11px;}
+.icon_arrow{background-position:-294px -29px; padding-left:18px;}
+

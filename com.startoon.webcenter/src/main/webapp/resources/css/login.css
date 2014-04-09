@@ -1,0 +1,49 @@
+/* same style  */
+form,p,ul,h1,h2,h3,table{margin:0; padding:0;}
+img{border:0;}
+input,select,textarea,button,img,span.btn{vertical-align:middle; margin-right:3px;}
+body,input,select,.btn{font-size:9pt; font-family:Arial;}
+h1{font-size:14px;}
+h2{font-size:16px;}
+a{color:#005FAC; text-decoration:underline;}
+a:hover{color:#F64000;}
+
+/* login  */
+.adminLogin{width:780px; height:420px; overflow:hidden; margin:0 auto; margin-top:50px; background-image: url(../images/bn_admin.gif); background-repeat:no-repeat; background-position: center;}
+.loginBorder{width:356px; height:380px; margin:0 auto; overflow:hidden; clear:both;}
+.loginBorderTop{width:100%; height:24px; float:left;}
+.loginBorderBottom{width:100%; height:89px; float:left;}
+.loginBorderCenter{width:100%; height:270px; background-image:url(../images/loginBorderCenter.png); background-repeat:repeat-y;}
+.adminLogin div.logo{width:230px; height:40px;}
+.adminLogin div.logo,.TypeWrong{margin-left:50px;}
+.TypeWrong{width:250px; clear:both; color:#F64000;}
+.loginName{width:92px; float:left; text-align:right; font-size:14px;}
+.loginType{width:260px; float:right;}
+.loginName,.loginType{height:32px; overflow:hidden; }
+.loginName{line-height:30px;}
+.loginName span{margin-left:5px;}
+.loginName a{margin-right:2px;}
+.loginName b{margin:0 5px 0 5px;}
+.loginInput{width:195px;}
+.loginYzm{width:70px;}
+.loginInput,.loginYzm{height:20px; background-color:#EBF8FF; border:1px solid #7F9DB9; font-weight:bolder; color:#000;}
+.loginType select{width:200px; height:22px; margin-top:2px;}
+.footer{width:780px; height:25px; margin:0 auto; overflow:hidden; line-height:150%; text-align:center; font-style:normal; color:#999;}
+
+.logo,.copyright,.loginBorderCenter,.TypeWrong,.loginName,.regBorderTop,.regBorderCenter,.regBorderBottom,.regMainTitle,.regName,.regOK
+{float:left; overflow:hidden; display:inline;}
+
+
+/* button */
+.btn{background-image: url(../images/login_x.gif); background-repeat:repeat-x; width:auto; background-position:0px 0px; background-color:#D4EEFD; border:1px solid #72A1BD; color:#333; font-size:9pt; cursor:hand; text-align:center;}
+.btn:hover{background-position:0px -29px; background-color:#8AD0FF; border:1px solid #72A1BD; color:#000;}
+button.btn,input.btn{height:25px; padding:0 10px 0px 10px;}
+* html .btn{zoom:1; vertical-align: baseline;}
+* html span.btn{padding:0px 15px 0px 15px; text-decoration:none; zoom:1; vertical-align: baseline;}
+*+ html span.btn{padding:4px 15px 2px 15px; width:auto; text-decoration:none; float: none; }
+span.btn{padding:3px 15px 5px 15px; text-decoration:none;!important;}
+.loginType span.btn{float:left; margin-right:5px; padding-top:3px; padding-bottom:3px;}
+.loginType span.btn{width:80px; font-size:14px; font-weight:bolder; text-decoration:none; }
+.loginType button.btn,.loginType input.btn{width:112px; height:31px; font-size:14px; font-weight:bolder;}
+.loginType .btn,.bigBtnLine .btn{background-position:0px -29px; background-color:#8AD0FF; border:1px solid #72A1BD; color:#000;}
+.loginType .btn:hover,.bigBtnLine .btn:hover{background-position:0px -473px; background-color:#F6CE88; border:1px solid #C07F0B; color:#9B2901;}

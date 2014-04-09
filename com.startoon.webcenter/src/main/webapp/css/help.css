@@ -1,0 +1,50 @@
+/*
+Powered By www.toprand.com
+*/
+
+.ban{ float:left; width:100%; margin-top:15px; margin-bottom:15px;}
+.curr{ float:left; width:100%; height:27px;}
+
+.main{ float:left; width:1000px;}
+/* ---------------left---------------- */
+.left{ float:left; width:206px; border:1px solid #e5e5e5; border-top:0;}
+.helptitle{ float:left; width:204px; border:1px solid #ee8c00; background:url(../images/bg_help.jpg) repeat-x;}
+.hlep1{ float:left; padding-left:18px; font-size:14px; font-weight:bold; color:#fff; line-height:26px;}
+.helpcon{ float:left; padding:5px 0 5px 19px; width:175px;}
+.helplist li{ float:left; width:165px; padding-left:10px; background:url(../images/icon_jiao1.jpg) 2px 7px no-repeat; line-height:24px;}
+
+/* ---------------right---------------- */
+.right{ float:right; width:773px; border:1px solid #e5e5e5;}
+.helptitle2{ float:left; width:771px; border:1px solid #ee8c00; background:url(../images/bg_help.jpg) repeat-x;}
+
+/* ------------cynl------------ */
+.title3{ float:left; width:773px; border:1px solid #dde7ef; border-bottom:0; background:url(../images/bg_title1.jpg) repeat-x; height:26px; position:relative;}
+/*help*/
+.title4{ float:left; width:100%; background:url(../images/bg_title4.jpg) repeat-x;height:1px; margin-bottom:15px;}
+
+.mconter{ float:left; width:743px;  border-top:0; padding:25px 15px; overflow:hidden; line-height:22px;}
+.cjwenti{ float:left; width:743px; }
+.cjwenti h2{ float:left; width:735px; padding-top:5px; padding-left:8px;}
+.cjwenti h2 table td{ height:30px; font-size:14px;}
+
+#wrap .cjwenti h2 table td a{ color:#003399}
+.tiwen{ float:left; width:721px; border:1px solid #ccc; padding:10px; margin-top:50px;}
+
+.tiwentable th{ height:20px; padding-left:5px; text-align:left; border-bottom:1px dashed #ff0000; color:#ff0000;}
+.tiwentable td.tdred{ color:#e74b4b; height:38px;}
+.tiwentable td{ padding-left:5px; padding-bottom:5px;}
+.txthelp{ width:316px; border:1px solid #9c9c9c}
+.txthelp2{ width:383px; height:83px; border:1px solid #9c9c9c}
+.btntijiao{ cursor:pointer; border:0; background:url(../images/btn_tijiao.jpg) no-repeat; width:74px; height:25px;}
+.btnfanhui{ cursor:pointer; border:0; background:url(../images/btn_fanhui.jpg) no-repeat; width:74px; height:25px;}
+
+
+
+
+
+
+
+
+
+
+

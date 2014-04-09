@@ -1,0 +1,18 @@
+/** css Reset star like yahoo **/
+body, div, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, p, th, td {
+	padding: 0;
+	margin: 0;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+fieldset, img {
+	border: 0;
+}
+ul,li{list-style:none;}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	font-size: 100%;
+}
+/** css Reset end **/

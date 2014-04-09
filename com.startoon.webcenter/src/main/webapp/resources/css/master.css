@@ -1,0 +1,55 @@
+
+pre.listing {
+  background: #eee;
+  border: 1px solid #ccc;
+  margin: .3em auto;
+  padding: .1em .3em;
+  width: 90%;
+}
+
+pre.listing b {color: #f00;}
+
+/* TABLE
+ * ========================================================================= */
+table#dnd-example {width: 98%;margin: 0 auto;border-collapse: collapse;border: 1px solid #E0E0E0; color:#333;}
+
+/* Caption
+ * ------------------------------------------------------------------------- */
+table#dnd-example caption {font-size:9pt;font-weight: bold;}
+
+/* Header
+ * ------------------------------------------------------------------------- */
+table#dnd-example thead {
+  background: #C6E0F1 url(../images/bg-table-thead.png) repeat-x top left;
+}
+
+table#dnd-example thead tr th {border: 1px solid #D6D6D6; padding:5px 5px 5px 20px; color:#666; text-align: left;
+}
+
+/* Body
+ * ------------------------------------------------------------------------- */
+table#dnd-example tbody tr td {cursor: default; padding:5px 5px 5px 20px; border: 1px solid #E0E0E0;}
+table#dnd-example tbody tr td a{color:#005FAC; text-decoration:underline; margin-right:8px;}
+table#dnd-example tbody tr td a:hover{color:#000;}
+
+table#dnd-example tbody tr.even {
+  background: #f3f3f3;
+}
+
+table#dnd-example tbody tr.odd {
+  background: #fff;
+}
+
+table#dnd-example span {
+  background-position: center left;
+  background-repeat: no-repeat;
+  padding: .2em 0 .2em 1.5em;
+}
+
+table#dnd-example span.file {
+  background-image: url(../images/page_white_text.png);
+}
+
+table#dnd-example span.folder {
+  background-image: url(../images/folder.png);
+}
