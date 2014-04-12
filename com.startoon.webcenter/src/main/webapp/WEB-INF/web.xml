@@ -107,7 +107,6 @@
 	</servlet>
 	<servlet>
 		<description>验证码</description>
-		<display-name>IndentifyCodeServlet</display-name>
 		<servlet-name>IndentifyCodeServlet</servlet-name>
 		<servlet-class>
 			org.j2eeframework.startoon.web.servlet.IndentifyCodeServlet</servlet-class>
@@ -117,9 +116,6 @@
 		<servlet-class>org.j2eeframework.startoon.web.servlet.FileViewServlet</servlet-class>
 	</servlet>
 	<servlet>
-		<description>
-		</description>
-		<display-name>AdminServlet</display-name>
 		<servlet-name>AdminServlet</servlet-name>
 		<servlet-class>org.j2eeframework.startoon.web.servlet.AdminServlet</servlet-class>
 	</servlet>
@@ -157,7 +153,7 @@
 	</servlet-mapping>
 	<servlet-mapping>
 		<servlet-name>AdminServlet</servlet-name>
-		<url-pattern>/admin</url-pattern>
+		<url-pattern>/sysadm</url-pattern>
 	</servlet-mapping>
 	<servlet-mapping>
 		<servlet-name>FileDownloadServlet</servlet-name>

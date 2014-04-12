@@ -24,8 +24,8 @@ public class AdminServlet extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		String url = request.getContextPath() + "/WEB-INF/content/admin-login.jsp";
-		request.getRequestDispatcher(url).forward(request, response);
+		String url = request.getContextPath() + "/admin.action";
+		response.sendRedirect(url);
 	}
 
 	/**

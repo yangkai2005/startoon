@@ -1,4 +1,3 @@
-<!--//--><![CDATA[//><!--
 //图片滚动列表 mengjia 070816
 var Speed = 10; //速度(毫秒)
 var Space = 5; //每次移动(px)
@@ -85,4 +84,3 @@ function CompScr(){
   setTimeout('CompScr()',Speed);
  }
 }
-//--><!]]>

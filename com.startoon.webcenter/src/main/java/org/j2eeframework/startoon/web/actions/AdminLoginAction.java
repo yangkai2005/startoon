@@ -21,6 +21,7 @@ public class AdminLoginAction extends ActionSupport {
 	 * 
 	 */
 	private static final long serialVersionUID = -6640004477375720412L;
+	
 	private static final Log log = LogFactory.getLog(AdminLoginAction.class);
 
 	@Resource
@@ -31,7 +32,7 @@ public class AdminLoginAction extends ActionSupport {
 	
 
 	@Override
-	@Action(value="admin-login", results = { @Result(name = "success", location = "/admin/main/index.jsp", type="redirect"), @Result(name="login", location="/sysadmin") })
+	@Action(value="admin-login", results = { @Result(name = "success", location = "/admin/main.action", type="redirect"), @Result(name="login", location="/WEB-INF/content/admin-login.jsp") })
 	public String execute() {
 
 		HttpServletRequest request = ServletActionContext.getRequest();
@@ -39,12 +40,14 @@ public class AdminLoginAction extends ActionSupport {
 		String idCode = (String) request.getSession().getAttribute(SystemVariables.VALIDATE_CODE);
 		if (idCode == null) {
 			log.info("获取验证码失败：无验证码！");
+			addActionError("请输入验证码。");
 			return "login";
 		}
 		log.info("%%% Session中的验证码[" + idCode + "] %%%");
 
 		if (!idCode.equals(ccode)) {
 			log.info("验证码校验失败！[验证码为：" + idCode + "，用户输入：" + ccode + "]");
+			addActionError("验证码错误。");
 			return "login";
 		}
 
@@ -52,8 +55,8 @@ public class AdminLoginAction extends ActionSupport {
 		try {
 			user = adminUserService.auth(account, password);
 		} catch (Exception e) {
-			e.printStackTrace();
-			return "admin-login";
+			addActionError("用户名或密码错误。");
+			return "login";
 		}
 
 		SysContext.clear();
@@ -67,7 +70,12 @@ public class AdminLoginAction extends ActionSupport {
 
 		return SUCCESS;
 	}
-
+	
+	@Action(value="admin", results = { @Result(name = "success", location = "/WEB-INF/content/admin-login.jsp") })
+	public String admin() {
+		return SUCCESS;
+	}
+	
 	public String getAccount() {
 		return account;
 	}

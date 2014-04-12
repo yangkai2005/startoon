@@ -6,8 +6,6 @@ import javax.annotation.Resource;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import org.apache.struts2.convention.annotation.Action;
-import org.apache.struts2.convention.annotation.Result;
 import org.j2eeframework.startoon.entity.Category;
 import org.j2eeframework.startoon.entity.Enterprise;
 import org.j2eeframework.startoon.entity.PostedPro;

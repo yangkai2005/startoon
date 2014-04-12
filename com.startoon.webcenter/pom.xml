@@ -40,16 +40,6 @@
 			<artifactId>imageinfo</artifactId>
 			<version>1.9</version>
 		</dependency>
-		<dependency>
-			<groupId>org.slf4j</groupId>
-			<artifactId>slf4j-api</artifactId>
-			<version>1.5.8</version>
-		</dependency>
-		<dependency>
-			<groupId>org.slf4j</groupId>
-			<artifactId>slf4j-simple</artifactId>
-			<version>1.5.8</version>
-		</dependency>
 		<!-- fckeditor dependencies end -->
 		<!-- 项目的特殊配置 -->
 		<!-- 连接池 -->

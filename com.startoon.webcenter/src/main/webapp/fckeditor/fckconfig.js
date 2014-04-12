@@ -1,6 +1,6 @@
 ﻿/*
  * FCKeditor - The text editor for Internet - http://www.fckeditor.net
- * Copyright (C) 2003-2009 Frederico Caldeira Knabben
+ * Copyright (C) 2003-2010 Frederico Caldeira Knabben
  *
  * == BEGIN LICENSE ==
  *
@@ -42,7 +42,7 @@ FCKConfig.StartupShowBlocks = false ;
 FCKConfig.Debug = false ;
 FCKConfig.AllowQueryStringDebug = true ;
 
-FCKConfig.SkinPath = FCKConfig.BasePath + 'skins/office2003/' ;
+FCKConfig.SkinPath = FCKConfig.BasePath + 'skins/default/' ;
 FCKConfig.SkinEditorCSS = '' ;	// FCKConfig.SkinPath + "|<minified css>" ;
 FCKConfig.SkinDialogCSS = '' ;	// FCKConfig.SkinPath + "|<minified css>" ;
 
@@ -99,15 +99,15 @@ FCKConfig.TemplateReplaceCheckbox = true ;
 FCKConfig.ToolbarLocation = 'In' ;
 
 FCKConfig.ToolbarSets["Default"] = [
-
-	['Bold','Italic','Underline','StrikeThrough'],
-	['OrderedList','UnorderedList','-','Outdent','Indent','Blockquote','CreateDiv'],
-	['JustifyLeft','JustifyCenter','JustifyRight','JustifyFull'],
-	['Link','Unlink','Anchor'],
 	['Source','DocProps','-','Save','NewPage','Preview','-','Templates'],
 	['Cut','Copy','Paste','PasteText','PasteWord','-','Print','SpellCheck'],
 	['Undo','Redo','-','Find','Replace','-','SelectAll','RemoveFormat'],
 	['Form','Checkbox','Radio','TextField','Textarea','Select','Button','ImageButton','HiddenField'],
+	'/',
+	['Bold','Italic','Underline','StrikeThrough','-','Subscript','Superscript'],
+	['OrderedList','UnorderedList','-','Outdent','Indent','Blockquote','CreateDiv'],
+	['JustifyLeft','JustifyCenter','JustifyRight','JustifyFull'],
+	['Link','Unlink','Anchor'],
 	['Image','Flash','Table','Rule','Smiley','SpecialChar','PageBreak'],
 	'/',
 	['Style','FontFormat','FontName','FontSize'],
@@ -318,17 +318,17 @@ var _QuickUploadLanguage	= 'php' ;	// asp | aspx | cfm | lasso | perl | php | py
 var _FileBrowserExtension = _FileBrowserLanguage == 'perl' ? 'cgi' : _FileBrowserLanguage ;
 var _QuickUploadExtension = _QuickUploadLanguage == 'perl' ? 'cgi' : _QuickUploadLanguage ;
 
-FCKConfig.LinkBrowser = true ;
+FCKConfig.LinkBrowser = false ;
 FCKConfig.LinkBrowserURL = FCKConfig.BasePath + 'filemanager/browser/default/browser.html?Connector=' + encodeURIComponent( FCKConfig.BasePath + 'filemanager/connectors/' + _FileBrowserLanguage + '/connector.' + _FileBrowserExtension ) ;
 FCKConfig.LinkBrowserWindowWidth	= FCKConfig.ScreenWidth * 0.7 ;		// 70%
 FCKConfig.LinkBrowserWindowHeight	= FCKConfig.ScreenHeight * 0.7 ;	// 70%
 
-FCKConfig.ImageBrowser = true ;
+FCKConfig.ImageBrowser = false ;
 FCKConfig.ImageBrowserURL = FCKConfig.BasePath + 'filemanager/browser/default/browser.html?Type=Image&Connector=' + encodeURIComponent( FCKConfig.BasePath + 'filemanager/connectors/' + _FileBrowserLanguage + '/connector.' + _FileBrowserExtension ) ;
 FCKConfig.ImageBrowserWindowWidth  = FCKConfig.ScreenWidth * 0.7 ;	// 70% ;
 FCKConfig.ImageBrowserWindowHeight = FCKConfig.ScreenHeight * 0.7 ;	// 70% ;
 
-FCKConfig.FlashBrowser = true ;
+FCKConfig.FlashBrowser = false ;
 FCKConfig.FlashBrowserURL = FCKConfig.BasePath + 'filemanager/browser/default/browser.html?Type=Flash&Connector=' + encodeURIComponent( FCKConfig.BasePath + 'filemanager/connectors/' + _FileBrowserLanguage + '/connector.' + _FileBrowserExtension ) ;
 FCKConfig.FlashBrowserWindowWidth  = FCKConfig.ScreenWidth * 0.7 ;	//70% ;
 FCKConfig.FlashBrowserWindowHeight = FCKConfig.ScreenHeight * 0.7 ;	//70% ;

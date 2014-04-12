@@ -19,19 +19,22 @@ public class LogoutAction extends ActionSupport {
 	 * 
 	 */
 	private static final long serialVersionUID = -6640004477375720412L;
+	
 	private static final Log log = LogFactory.getLog(LogoutAction.class);
 
 	@Override
-	@Action(results = { @Result(name = "logout", location = "/admin-login.jsp", type = "redirect") })
+	@Action(results = { @Result(name = "logout", location = "/admin.action", type = "redirect") })
 	public String execute() {
 
 		HttpServletRequest request = ServletActionContext.getRequest();
-		AdminUser usr = (AdminUser) request.getSession().getAttribute(
-				SystemVariables.ADMIN_USER);
+		AdminUser usr = (AdminUser) request.getSession().getAttribute(SystemVariables.ADMIN_USER);
 		log.info("后台用户注销[" + usr + "]");
 		SysContext.clear();
 		request.getSession().removeAttribute(SystemVariables.ADMIN_USER);
 		request.getSession().removeAttribute(SystemVariables.ADMIN_USER_ID);
+		
+		request.getSession().invalidate();
+		
 		return "logout";
 	}
 

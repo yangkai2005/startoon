@@ -106,11 +106,11 @@ function resizeIframe(){
 	</td>
 	<td class="center">
 	<div id="switchpic">
-	  <a href="javascript:void(0)" onClick="return chg('leftNav');" id="ImgArrow"><img src="${pageContext.request.contextPath }/resources/images/switch_left.gif" id ="imgButton" alt="隐藏左侧导航栏" /></a>
+	  <a href="javascript:void(0)" onclick="return chg('leftNav');" id="ImgArrow"><img src="${pageContext.request.contextPath }/resources/images/switch_left.gif" id ="imgButton" alt="隐藏左侧导航栏" /></a>
 	</div>	
 	</td>
     <td class="right">
-	<iframe src="${pageContext.request.contextPath }/admin/main/welcome.jsp" name="mainFrame" width="100%" height="100%" scrolling-y="yes" scrolling-x="no" id="mainFrame" border="0" frameborder="0" onload="resizeIframe();"></iframe>
+	<iframe src="${pageContext.request.contextPath }/admin/main/welcome.action" name="mainFrame" width="100%" height="100%" scrolling-y="yes" scrolling-x="no" id="mainFrame" border="0" frameborder="0" onload="resizeIframe();"></iframe>
 	</td>
   </tr>
 </table>

@@ -6,13 +6,12 @@ import javax.annotation.Resource;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import org.apache.struts2.convention.annotation.Action;
-import org.apache.struts2.convention.annotation.Result;
 import org.j2eeframework.startoon.entity.Category;
 import org.j2eeframework.startoon.service.IndexService;
 
 import com.opensymphony.xwork2.ActionSupport;
 
+@SuppressWarnings("rawtypes")
 public class CategoryAction extends ActionSupport {
 
 	
@@ -27,17 +26,14 @@ public class CategoryAction extends ActionSupport {
 
 	private List<Category> categories;
 	
-	@SuppressWarnings("unchecked")
-	private List list;
+	private List<?> list;
 	
 	private String type;
 	
-	@SuppressWarnings("unchecked")
 	public List getList() {
 		return list;
 	}
 
-	@SuppressWarnings("unchecked")
 	public void setList(List list) {
 		this.list = list;
 	}
