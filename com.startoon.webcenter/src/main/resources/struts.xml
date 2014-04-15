@@ -49,10 +49,8 @@
 			<result name="error">/WEB-INF/content/500.jsp</result>
 			<result name="global_forbidden">/WEB-INF/content/forbidden.jsp</result>
 		</global-results>
-		<!-- 
 		<global-exception-mappings>
 			<exception-mapping result="error" exception="java.lang.Throwable"></exception-mapping>
 		</global-exception-mappings>
-		 -->
 	</package>
 </struts>
